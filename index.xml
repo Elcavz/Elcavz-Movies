@@ -5,7 +5,7 @@
 <meta charset='utf-8'/>
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'/>
-<link rel="icon" href='https://i.ibb.co/H2np02b/icons8-film-reel-50.png'/>
+<link href='https://i.ibb.co/H2np02b/icons8-film-reel-50.png' rel='icon'/>
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
     <b:if cond='data:blog.pageType == &quot;item&quot;'>
     <title><data:blog.pageName/> | <data:blog.title/></title>
@@ -17,13 +17,13 @@
     </b:if>
 
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
-    <meta content='Your Blog Description here!' name='description'/>
-    <meta content='Your Keywords here!' name='keywords'/>
-    <meta content='Author Name here!' name='Author'/>
+    <meta content='Free Download and Watch Latest Movies!' name='description'/>
+    <meta content='free, movies, movie, latest, 2024, HD, 1080p, elcavz, english, eng, subtitle, sub' name='keywords'/>
+    <meta content='Elcavz' name='Author'/>
     <meta content='general' name='rating'/>
     <meta content='all' name='robots'/>
     <meta content='index, follow' name='robots'/>
-    <meta content='id' name='geo.country'/>
+    <meta content='ph' name='geo.country'/>
     <meta content='1 days' name='revisit-after'/>
     <meta content='Philippines' name='geo.placename'/>
 </b:if>
@@ -604,9 +604,9 @@ var relatedTitles=new Array();var relatedTitlesNum=0;var relatedUrls=new Array()
 </div>
 </div><!-- end header-wrapper -->
 <ul class='menu'>
-  <li><a href='/'>HOME</a></li>
-<li><a href='https://Your-Link-Here'>ABOUT US</a></li>
-<li><a href='https://Your-Link-Here'>DISCLAIMER</a></li>
+  <li style='z-index: 1;'><a href='/'>HOME</a></li>
+<li style='z-index: 1;'><a href='/'>ABOUT US</a></li>
+<li style='z-index: 1;'><a href='/'>DISCLAIMER</a></li>
 
 <div class='menusearch'>
 <div style='float:right;padding:8px 8px 0 0;'>
@@ -1535,7 +1535,7 @@ window.goog.comments.loadQueue.push(render);
             <b:widget-settings>
               <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
               <b:widget-setting name='display'>LIST</b:widget-setting>
-              <b:widget-setting name='selectedLabelsList'>Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,Western</b:widget-setting>
+              <b:widget-setting name='selectedLabelsList'>Action,Adventure,Animation,Comedy,Crime,Drama,Family,Fantasy,History,Horror,Music,Mystery,Romance,Sci-Fi,Superhero,Survival,Thriller,War</b:widget-setting>
               <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
               <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
             </b:widget-settings>
@@ -1594,7 +1594,7 @@ window.goog.comments.loadQueue.push(render);
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d3603702858971852065\x26blogName\x3dMovie+Sample\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://elcavz-movie.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://elcavz-movie.blogspot.com/\x26vt\x3d4227944889078858704&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d3603702858971852065\x26blogName\x3dElcavz+Movies\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLACK\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://elcavz-movies.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://elcavz-movies.blogspot.com/\x26vt\x3d-2305603630025143326&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -1616,7 +1616,7 @@ head.appendChild(script);
             <b:widget-settings>
               <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
               <b:widget-setting name='display'>LIST</b:widget-setting>
-              <b:widget-setting name='selectedLabelsList'>2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018</b:widget-setting>
+              <b:widget-setting name='selectedLabelsList'>2011,2022,2023,2024</b:widget-setting>
               <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
               <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
             </b:widget-settings>
@@ -1702,91 +1702,6 @@ head.appendChild(script);
     <data:adCode/>
     <b:include name='quickedit'/>
   </div>
-</b:includable>
-          </b:widget>
-          <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'>
-            <b:widget-settings>
-              <b:widget-setting name='showStyle'>FLAT</b:widget-setting>
-              <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
-              <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
-              <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
-              <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
-              <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
-              <b:widget-setting name='chronological'>false</b:widget-setting>
-              <b:widget-setting name='showPosts'>true</b:widget-setting>
-              <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-  <div id='ArchiveList'>
-  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
-    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
-    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
-  </div>
-  </div>
-  <b:include name='quickedit'/>
-  </div>
-</b:includable>
-            <b:includable id='flat' var='data'>
-  <ul class='flat'>
-    <b:loop values='data:data' var='i'>
-      <li class='archivedate'>
-        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
-      </li>
-    </b:loop>
-  </ul>
-</b:includable>
-            <b:includable id='interval' var='intervalData'>
-  <b:loop values='data:intervalData' var='interval'>
-    <ul class='hierarchy'>
-      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
-        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
-        <a class='post-count-link' expr:href='data:interval.url'>
-          <data:interval.name/>
-        </a>
-        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
-        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
-        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
-      </li>
-    </ul>
-  </b:loop>
-</b:includable>
-            <b:includable id='menu' var='data'>
-  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
-    <option value=''><data:title/></option>
-    <b:loop values='data:data' var='i'>
-      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
-    </b:loop>
-  </select>
-</b:includable>
-            <b:includable id='posts' var='posts'>
-  <ul class='posts'>
-    <b:loop values='data:posts' var='post'>
-      <li><a expr:href='data:post.url'><data:post.title/></a></li>
-    </b:loop>
-  </ul>
-</b:includable>
-            <b:includable id='toggle' var='interval'>
-  <a class='toggle' href='javascript:void(0)'>
-    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
-      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
-        &#9660;&#160;
-      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
-        &#9668;&#160;
-      <b:else/>
-        &#9658;&#160;
-      </b:if>
-    </span>
-  </a>
-</b:includable>
-          </b:widget>
-          <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse'>
-            <b:includable id='main'>
-  <b:include name='reportAbuse'/>
 </b:includable>
           </b:widget>
           <b:widget cond='data:view.isSingleItem and data:posts any (p =&gt; p.id != data:view.postId)' id='PopularPosts1' locked='false' title='' type='PopularPosts'>
@@ -1875,53 +1790,11 @@ head.appendChild(script);
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='Profile1' locked='false' title='About Me' type='Profile'>
+          <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost'>
             <b:widget-settings>
-              <b:widget-setting name='showaboutme'>true</b:widget-setting>
-              <b:widget-setting name='showlocation'>false</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-    <b:if cond='data:team'> <!-- team blog profile -->
-      <ul>
-        <b:loop values='data:authors' var='i'>
-          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
-        </b:loop>
-      </ul>
-
-    <b:else/> <!-- normal blog profile -->
-
-      <b:if cond='data:photo.url != &quot;&quot;'>
-        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
-      </b:if>
-
-      <dl class='profile-datablock'>
-        <dt class='profile-data'>
-          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
-            <data:displayname/>
-          </a>
-        </dt>
-
-        <b:if cond='data:showlocation'>
-          <dd class='profile-data'><data:location/></dd>
-        </b:if>
-
-        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
-      </dl>
-      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
-    </b:if>
-
-     <b:include name='quickedit'/>
-    </div>
-  </b:includable>
-          </b:widget>
-          <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='false' title='' type='FeaturedPost'>
-            <b:widget-settings>
-              <b:widget-setting name='showSnippet'>true</b:widget-setting>
+              <b:widget-setting name='showSnippet'>false</b:widget-setting>
               <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+              <b:widget-setting name='postId'>0</b:widget-setting>
               <b:widget-setting name='showFirstImage'>true</b:widget-setting>
               <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
             </b:widget-settings>
