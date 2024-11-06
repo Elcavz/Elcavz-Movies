@@ -533,7 +533,7 @@ gap:var(--size)}
 .text-1rem,.pager-js a,.s-media li {font-size: 1rem}
 .text-2 {font-size: 2rem}
 #description h3,#main h3.title {font-size: 1.25rem}
-.text-1d5 {font-size: 1.5rem}
+.text-1d5 {font-size: 1rem}
 .text-t {font: normal 700 40px 'Noto Sans HK', sans-serif;color: #8c8c8c}
 .fs-13,.r-snippetize {font-size: 13px}
 .fs-sm,.more {font-size: .85em}
@@ -1205,9 +1205,6 @@ body#layout:after{content:'Designed by - https://github.com/Nabeelshar/9anime';d
         </div>
 
  </b:includable>
-      <b:includable id='inlineAd2' var='post'>
-            <a class='ads-here' href='#'>Responsive Advertisement</a>
-          </b:includable>
       <b:includable id='relatedPost' var='post'>
         <div id='related-posts'>
          
@@ -1245,7 +1242,7 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
  /*]]>*/</script>
       </b:includable>
       <b:includable id='postPaginationMore'>
-        <script>/*<![CDATA[*/ !function(t,e){t.InfiniteScroll=function(n){function r(t,n){return n=n||e,n.querySelectorAll(t)}function o(t){return void 0!==t}function a(t){return"function"==typeof t}function i(t,e){t=t||{};for(var n in e)t[n]="object"==typeof e[n]?i(t[n],e[n]):e[n];return t}function s(t,e,n){return o(t)?o(e)?void(o(n)?g[t][n]=e:g[t].push(e)):g[t]:g}function d(t,e){o(e)?delete g[t][e]:g[t]=[]}function l(t,e){if(o(g[t]))for(var n in g[t])g[t][n](e)}function c(){return L.innerHTML=p.text.loading,v=!0,M?(y.classList.add(p.state.loading),l("loading",[p]),void u(M,function(t,n){y.className=x+" "+p.state.load,h=e.createElement("div"),h.innerHTML=t;var o=r("title",h),a=r(p.target.post,h),i=r(p.target.anchors+" "+p.target.anchor,h),s=r(p.target.post,H);if(o=o&&o[0]?o[0].innerHTML:"",a.length&&s.length){var d=s[s.length-1];e.title=o,d.insertAdjacentHTML("afterend",' '),h=e.createElement("div");for(var c=0,u=a.length;u>c;++c)h.appendChild(a[c]);d.insertAdjacentHTML("afterend",h.innerHTML),f(),M=i.length?i[0].href:!1,v=!1,q++,l("load",[p,t,n])}},function(t,e){y.classList.add(p.state.error),v=!1,f(1),l("error",[p,t,e])})):(y.classList.add(p.state.loaded),L.innerHTML=p.text.loaded,l("loaded",[p]))}function f(t){if(L.innerHTML="",T){h.innerHTML=p.text[t?"error":"load"];var e=h.firstChild;e.onclick=function(){return 2===p.type&&(T=!1),c(),!1},L.appendChild(e)}}var u="infinite-scroll-state-",p={target:{posts:".posts",post:".post",anchors:".anchors",anchor:".anchor"},text:{load:"%s",loading:"%s",loaded:"%s",error:"%s"},state:{load:u+"load",loading:u+"loading",loaded:u+"loaded",error:u+"error"}},g={load:[],loading:[],loaded:[],error:[]};p=i(p,n||{}),p.on=s,p.off=d;var h=null,u=function(e,n,r){if(t.XMLHttpRequest){var o=new XMLHttpRequest;o.onreadystatechange=function(){if(4===o.readyState){if(200!==o.status)return void(r&&a(r)&&r(o.responseText,o));n&&a(n)&&n(o.responseText,o)}},o.open("GET",e),o.send()}},T=1!==p.type,v=!1,H=r(p.target.posts)[0],L=r(p.target.anchors)[0],M=r(p.target.anchor,L),m=e.body,y=e.documentElement,x=y.className||"",E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=0,b=null,q=1;if(M.length){M=M[0].href,H.insertAdjacentHTML("afterbegin",' '),h=e.createElement("div"),f();var w=function(){E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=m.scrollTop||y.scrollTop,v||E>A+j||c()};w(),0!==p.type&&t.addEventListener("scroll",function(){T||(b&&t.clearTimeout(b),b=t.setTimeout(w,200))},!1)}return p}}(window,document);var infinite_scroll = new InfiniteScroll({ type: 0, target: {posts: '.blog-posts', post: '.hentry', anchors: '.blog-pager', anchor: '.blog-pager-older-link'}, text: {load: '<a class="js-load load-more flex aic" href="javascript:void(0)">More <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M5.75 12.25L10.25 8l-4.5-4.25"/></g></svg></a>', loading: '<a class="flex aic"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 50 50" xml:space="preserve"><path d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"/></path></svg><span>Please Wait...</span></a>', loaded: '<div class="js-load no-post">No results found</div>', error: '<a class="js-load error" href="javascript:void(0)">Xin lỗi có vẻ như đã bị lỗi!</a>'} }); /*]]>*/</script>
+        <script>/*<![CDATA[*/ !function(t,e){t.InfiniteScroll=function(n){function r(t,n){return n=n||e,n.querySelectorAll(t)}function o(t){return void 0!==t}function a(t){return"function"==typeof t}function i(t,e){t=t||{};for(var n in e)t[n]="object"==typeof e[n]?i(t[n],e[n]):e[n];return t}function s(t,e,n){return o(t)?o(e)?void(o(n)?g[t][n]=e:g[t].push(e)):g[t]:g}function d(t,e){o(e)?delete g[t][e]:g[t]=[]}function l(t,e){if(o(g[t]))for(var n in g[t])g[t][n](e)}function c(){return L.innerHTML=p.text.loading,v=!0,M?(y.classList.add(p.state.loading),l("loading",[p]),void u(M,function(t,n){y.className=x+" "+p.state.load,h=e.createElement("div"),h.innerHTML=t;var o=r("title",h),a=r(p.target.post,h),i=r(p.target.anchors+" "+p.target.anchor,h),s=r(p.target.post,H);if(o=o&&o[0]?o[0].innerHTML:"",a.length&&s.length){var d=s[s.length-1];e.title=o,d.insertAdjacentHTML("afterend",' '),h=e.createElement("div");for(var c=0,u=a.length;u>c;++c)h.appendChild(a[c]);d.insertAdjacentHTML("afterend",h.innerHTML),f(),M=i.length?i[0].href:!1,v=!1,q++,l("load",[p,t,n])}},function(t,e){y.classList.add(p.state.error),v=!1,f(1),l("error",[p,t,e])})):(y.classList.add(p.state.loaded),L.innerHTML=p.text.loaded,l("loaded",[p]))}function f(t){if(L.innerHTML="",T){h.innerHTML=p.text[t?"error":"load"];var e=h.firstChild;e.onclick=function(){return 2===p.type&&(T=!1),c(),!1},L.appendChild(e)}}var u="infinite-scroll-state-",p={target:{posts:".posts",post:".post",anchors:".anchors",anchor:".anchor"},text:{load:"%s",loading:"%s",loaded:"%s",error:"%s"},state:{load:u+"load",loading:u+"loading",loaded:u+"loaded",error:u+"error"}},g={load:[],loading:[],loaded:[],error:[]};p=i(p,n||{}),p.on=s,p.off=d;var h=null,u=function(e,n,r){if(t.XMLHttpRequest){var o=new XMLHttpRequest;o.onreadystatechange=function(){if(4===o.readyState){if(200!==o.status)return void(r&&a(r)&&r(o.responseText,o));n&&a(n)&&n(o.responseText,o)}},o.open("GET",e),o.send()}},T=1!==p.type,v=!1,H=r(p.target.posts)[0],L=r(p.target.anchors)[0],M=r(p.target.anchor,L),m=e.body,y=e.documentElement,x=y.className||"",E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=0,b=null,q=1;if(M.length){M=M[0].href,H.insertAdjacentHTML("afterbegin",' '),h=e.createElement("div"),f();var w=function(){E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=m.scrollTop||y.scrollTop,v||E>A+j||c()};w(),0!==p.type&&t.addEventListener("scroll",function(){T||(b&&t.clearTimeout(b),b=t.setTimeout(w,200))},!1)}return p}}(window,document);var infinite_scroll = new InfiniteScroll({ type: 0, target: {posts: '.blog-posts', post: '.hentry', anchors: '.blog-pager', anchor: '.blog-pager-older-link'}, text: {load: '<a class="js-load load-more flex aic" href="javascript:void(0)">Next <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M5.75 12.25L10.25 8l-4.5-4.25"/></g></svg></a>', loading: '<a class="flex aic"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 50 50" xml:space="preserve"><path d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"/></path></svg><span>Please Wait...</span></a>', loaded: '<div class="js-load no-post">No results found</div>', error: '<a class="js-load error" href="javascript:void(0)">Xin lỗi có vẻ như đã bị lỗi!</a>'} }); /*]]>*/</script>
       </b:includable>
       <b:includable id='multiHeader'>
         <div class='bc-2c2'>
@@ -1258,7 +1255,6 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
 <strong>Directory Search</strong>
 </nav>
           <h1 class='fs-xl c-fff m-0 a-h'>Directory Search</h1>
-          <p class='a-p'>Elcavz Movies</p>
           <b:include name='sMedia'/>
         </section>
         </div>
@@ -1266,22 +1262,16 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
       <b:includable id='alphaList'>
       <section class='max-w mx-auto p-calc05'>
 <ul class='alpha-list'>
-<li><a href='?letter=0-9'>#</a></li>
-<li><a href='?letter=A'>A</a></li><li><a href='?letter=B'>B</a></li><li><a href='?letter=C'>C</a></li><li><a href='?letter=D'>D</a></li><li><a href='?letter=E'>E</a></li><li><a href='?letter=F'>F</a></li><li><a href='?letter=G'>G</a></li><li><a href='?letter=H'>H</a></li><li><a href='?letter=I'>I</a></li><li><a href='?letter=J'>J</a></li><li><a href='?letter=K'>K</a></li><li><a href='?letter=L'>L</a></li><li><a href='?letter=M'>M</a></li><li><a href='?letter=N'>N</a></li><li><a href='?letter=O'>O</a></li><li><a href='?letter=P'>P</a></li><li><a href='?letter=Q'>Q</a></li><li><a href='?letter=R'>R</a></li><li><a href='?letter=S'>S</a></li><li><a href='?letter=T'>T</a></li><li><a href='?letter=U'>U</a></li><li><a href='?letter=V'>V</a></li><li><a href='?letter=W'>W</a></li><li><a href='?letter=X'>X</a></li><li><a href='?letter=Y'>Y</a></li><li><a href='?letter=Z'>Z</a></li> </ul>
+<li><a href='/search/label/0-9'>#</a></li>
+<li><a href='/search/label/A'>A</a></li><li><a href='/search/label/B'>B</a></li><li><a href='/search/label/C'>C</a></li><li><a href='/search/label/D'>D</a></li><li><a href='/search/label/E'>E</a></li><li><a href='/search/label/F'>F</a></li><li><a href='/search/label/G'>G</a></li><li><a href='/search/label/H'>H</a></li><li><a href='/search/label/I'>I</a></li><li><a href='/search/label/J'>J</a></li><li><a href='/search/label/K'>K</a></li><li><a href='/search/label/L'>L</a></li><li><a href='/search/label/M'>M</a></li><li><a href='/search/label/N'>N</a></li><li><a href='/search/label/O'>O</a></li><li><a href='/search/label/P'>P</a></li><li><a href='/search/label/Q'>Q</a></li><li><a href='/search/label/R'>R</a></li><li><a href='/search/label/S'>S</a></li><li><a href='/search/label/T'>T</a></li><li><a href='/search/label/U'>U</a></li><li><a href='/search/label/V'>V</a></li><li><a href='/search/label/W'>W</a></li><li><a href='/search/label/X'>X</a></li><li><a href='/search/label/Y'>Y</a></li><li><a href='/search/label/Z'>Z</a></li> </ul>
 </section>
       </b:includable>
       <b:includable id='sMedia'>
         <ul class='s-media flex aic lsn p-0 jcsb m-0 py-09 a-u'>
           <li>
-            <a class='flex aic c-fff tdn' href='#'>
+            <a class='flex aic c-fff tdn' href='https://www.facebook.com/people/Kabitenyo/61567407801883/' target='_blank'>
               <svg class='c-fff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M0 0h24v24H0z' fill='none'/><path d='M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z'/></svg>
-              <div class='lhn'><span class='block text-075 c-959 fw-700'>Like fanspage</span>Facebook</div>
-            </a>
-          </li>
-          <li>
-            <a class='flex aic c-fff tdn' href='#'>
-              <svg class='c-fff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M0 0h24v24H0z' fill='none'/><path d='M10.076 11c.6 0 1.086.45 1.075 1 0 .55-.474 1-1.075 1C9.486 13 9 12.55 9 12s.475-1 1.076-1zm3.848 0c.601 0 1.076.45 1.076 1s-.475 1-1.076 1c-.59 0-1.075-.45-1.075-1s.474-1 1.075-1zm4.967-9C20.054 2 21 2.966 21 4.163V23l-2.211-1.995-1.245-1.176-1.317-1.25.546 1.943H5.109C3.946 20.522 3 19.556 3 18.359V4.163C3 2.966 3.946 2 5.109 2H18.89zm-3.97 13.713c2.273-.073 3.148-1.596 3.148-1.596 0-3.381-1.482-6.122-1.482-6.122-1.48-1.133-2.89-1.102-2.89-1.102l-.144.168c1.749.546 2.561 1.334 2.561 1.334a8.263 8.263 0 0 0-3.096-1.008 8.527 8.527 0 0 0-2.077.02c-.062 0-.114.011-.175.021-.36.032-1.235.168-2.335.662-.38.178-.607.305-.607.305s.854-.83 2.705-1.376l-.103-.126s-1.409-.031-2.89 1.103c0 0-1.481 2.74-1.481 6.121 0 0 .864 1.522 3.137 1.596 0 0 .38-.472.69-.871-1.307-.4-1.8-1.24-1.8-1.24s.102.074.287.179c.01.01.02.021.041.031.031.022.062.032.093.053.257.147.514.262.75.357.422.168.926.336 1.513.452a7.06 7.06 0 0 0 2.664.01 6.666 6.666 0 0 0 1.491-.451c.36-.137.761-.337 1.183-.62 0 0-.514.861-1.862 1.25.309.399.68.85.68.85z'/></svg>
-              <div class='lhn'><span class='block text-075 c-959 fw-700'>Join channel</span>Discord</div>
+              <div class='lhn'><span class='block text-075 c-959 fw-700'>Follow Us</span>Facebook</div>
             </a>
           </li>
         </ul>
@@ -1381,12 +1371,6 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Ecchi", "Fantasy", "Gam
         <b:widget-setting name='link-5'>/search/label/Completed</b:widget-setting>
         <b:widget-setting name='link-3'>#</b:widget-setting>
         <b:widget-setting name='link-4'>/search/label/Ongoing</b:widget-setting>
-        <b:widget-setting name='text-1'>Request</b:widget-setting>
-        <b:widget-setting name='text-0'>Schedule</b:widget-setting>
-        <b:widget-setting name='text-3'>Update</b:widget-setting>
-        <b:widget-setting name='text-2'>Newest</b:widget-setting>
-        <b:widget-setting name='text-5'>Completed</b:widget-setting>
-        <b:widget-setting name='text-4'>Ongoing</b:widget-setting>
         <b:widget-setting name='shownum'>100</b:widget-setting>
         <b:widget-setting name='sorting'>NONE</b:widget-setting>
         <b:widget-setting name='link-1'>#</b:widget-setting>
@@ -1414,61 +1398,37 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Ecchi", "Fantasy", "Gam
        <ul class='c4'>
          <li><a href='/search/label/Action' title='Action Anime'>Action</a></li>
          <li><a href='/search/label/Adventure' title='Adventure Anime'>Adventure</a></li>
-         <li><a href='/search/label/Avant-garde' title='Avant Garde Anime'>Avant Garde</a></li>
-         <li><a href='/search/label/Boys-love' title='Boys Love Anime'>Boys Love</a></li>
+         <li><a href='/search/label/Animation' title='Action Anime'>Animation</a></li>
          <li><a href='/search/label/Cars' title='Cars Anime'>Cars</a></li>
          <li><a href='/search/label/Comedy' title='Comedy Anime'>Comedy</a></li>
-         <li><a href='/search/label/Dementia' title='Dementia Anime'>Dementia</a></li>
-         <li><a href='/search/label/Demons' title='Demons Anime'>Demons</a></li>
+         <li><a href='/search/label/Crime' title='Comedy Anime'>Crime</a></li>
+         <li><a href='/search/label/Documentary' title='Fantasy Anime'>Documentary</a></li>
          <li><a href='/search/label/Drama' title='Drama Anime'>Drama</a></li>
-         <li><a href='/search/label/Ecchi' title='Ecchi Anime'>Ecchi</a></li>
+         <li><a href='/search/label/Family' title='Fantasy Anime'>Family</a></li>
          <li><a href='/search/label/Fantasy' title='Fantasy Anime'>Fantasy</a></li>
          <li><a href='/search/label/Game' title='Game Anime'>Game</a></li>
-         <li><a href='/search/label/Gender-bender' title='Gender Bender Anime'>Gender Bender</a></li>
-         <li><a href='/search/label/Girls-love' title='Girls Love Anime'>Girls Love</a></li>
-         <li><a href='/search/label/Gourmet' title='Gourmet Anime'>Gourmet</a></li>
-         <li><a href='/search/label/Harem' title='Harem Anime'>Harem</a></li>
          <li><a href='/search/label/Historical' title='Historical Anime'>Historical</a></li>
-         <li><a href='/search/label/Isekai' title='Isekai Anime'>Isekai</a></li>
          <li><a href='/search/label/Horror' title='Horror Anime'>Horror</a></li>
-         <li><a href='/search/label/Josei' title='Josei Anime'>Josei</a></li>
          <li><a href='/search/label/Kids' title='Kids Anime'>Kids</a></li>
          <li><a href='/search/label/Magic' title='Magic Anime'>Magic</a></li>
          <li><a href='/search/label/Martial-arts' title='Martial Arts Anime'>Martial Arts</a></li>
-         <li><a href='/search/label/Mecha' title='Mecha Anime'>Mecha</a></li>
          <li><a href='/search/label/Military' title='Military Anime'>Military</a></li>
          <li><a href='/search/label/Music' title='Music Anime'>Music</a></li>
          <li><a href='/search/label/Mystery' title='Mystery Anime'>Mystery</a></li>
-         <li><a href='/search/label/Parody' title='Parody Anime'>Parody</a></li>
-         <li><a href='/search/label/Police' title='Police Anime'>Police</a></li>
          <li><a href='/search/label/Psychological' title='Psychological Anime'>Psychological</a></li>
          <li><a href='/search/label/Romance' title='Romance Anime'>Romance</a></li>
-         <li><a href='/search/label/Samurai' title='Samurai Anime'>Samurai</a></li>
-         <li><a href='/search/label/School' title='School Anime'>School</a></li>
-         <li><a href='/search/label/Sci Fi' title='Sci-Fi Anime'>Sci-Fi</a></li>
-         <li><a href='/search/label/Seinen' title='Seinen Anime'>Seinen</a></li>
-         <li><a href='/search/label/Shoujo' title='Shoujo Anime'>Shoujo</a></li>
-         <li><a href='/search/label/Shoujo Ai' title='Shoujo Ai Anime'>Shoujo Ai</a></li>
-         <li><a href='/search/label/Shounen' title='Shounen Anime'>Shounen</a></li>
-         <li><a href='/search/label/Slice of Life' title='Slice of Life Anime'>Slice of Life</a></li>
+         <li><a href='/search/label/Sci-Fi' title='Sci-Fi Anime'>Sci-Fi</a></li>
          <li><a href='/search/label/Space' title='Space Anime'>Space</a></li>
          <li><a href='/search/label/Sports' title='Sports Anime'>Sports</a></li>
-         <li><a href='/search/label/Super Power' title='Super Power Anime'>Super Power</a></li>
-         <li><a href='/search/label/Supernatural' title='Supernatural Anime'>Supernatural</a></li>
+         <li><a href='/search/label/Superhero' title='Supernatural Anime'>Superhero</a></li>
          <li><a href='/search/label/Suspense' title='Suspense Anime'>Suspense</a></li>
          <li><a href='/search/label/Thriller' title='Thriller Anime'>Thriller</a></li>
-         <li><a href='/search/label/Vampire' title='Vampire Anime'>Vampire</a></li>
-         <li><a href='/search/label/Work Life' title='Work Life Anime'>Work Life</a></li>
-         <li><a href='/search/label/Yuri' title='Yuri Anime'>Yuri</a></li>
+         <li><a href='/search/label/War' title='Thriller Anime'>War</a></li>
        </ul>
      </li>
      <li> <a>Types</a>
        <ul class='c1'>
-         <li><a href='/tv'>TV Series</a></li>
-         <li><a href='/movie'>Movies</a></li>
-         <li><a href='/ova'>OVAs</a></li>
-         <li><a href='/ona'>ONAs</a></li>
-         <li><a href='/special'>Specials</a></li>
+         <li><a href='/'>Movies</a></li>
        </ul>
      </li>
      <b:loop values='data:links' var='link'>
@@ -3062,7 +3022,7 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
       <b:section id='main' showaddelement='true'>
         <b:widget id='HTML6' locked='false' title='[ads]' type='HTML' version='2' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<div class="ads-here" id="frame" style="width: 100%;"><iframe data-aa='2362472' src='//acceptable.a-ads.com/2362472' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe><a style="display: block; text-align: right; font-size: 12px" id="frame-link">Advertise here</a></div>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <div class='widget-content'>
@@ -3456,14 +3416,14 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
               <b:with value='data:view.isHomepage ? data:posts filter (post =&gt; post.id not in data:featuredPostIds): data:posts' var='posts'>
                 <b:if cond='data:view.isMultipleItems'>
                   <div class='mb-10 flex jcsb' id='newest'>
-                    <h2 class='text-1d5 lh-2 c-fff'>Recently updated</h2>
+                    <h2 class='text-1d5 lh-2 c-fff'>Latest</h2>
                     <div class='flex aic g-10 c-eee-a'>                    
                       <div class='flex aic g-10'>
                         <a href='/search'>All</a>
-                        <a href='/search/label/Sub'>Sub</a>
-                        <a href='/search/label/Dub'>Dub</a>
-                        <a href='#'>Random</a>
-                        <a href='/search/label/Anime'>More</a>
+                        <a href='/search/label/Animation'>Animation</a>
+                        <a href='/search/label/Drama'>Drama</a>
+                        <a href='/search/label/Horror'>Horror</a>
+                        <a href='/search/label/War'>War</a>
                       </div>
                       <b:include name='postPagination'/>
                     </div>
@@ -3893,13 +3853,13 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
 <b:eval expr='&quot;#&quot; + data:widget.instanceId + &quot;-w:checked&quot;'/> ~ :is(ul,span) {
  max-height: 100vh;transition: max-height .2s;display: inline;}
 #Blog1-w:checked ~ .plus {display: none;}</style>
-              Watch online <b><data:post.title/></b> bahasa Indonesia,  
-            Streaming anime <data:post.title/> sub indo,
+              Watch online <b><data:post.title/></b>,  
+            Streaming movie <data:post.title/>,
             <input class='hidden' expr:id='data:widget.instanceId + &quot;-w&quot;' type='checkbox'/>
             <label class='cp more plus' expr:for='data:widget.instanceId + &quot;-w&quot;'>+more</label><span class='i-block'>
-            Mau nonton anime terbaik dengan subtitle Indonesia? Streaming anime Jepang dari anime <data:post.title/>,
-            website streaming anime subtitle indonesia dan nonton anime indo update setiap hari, TV <data:post.title/>,
-            Terbaru Terupdate dan Terlengkap dengan Kualitas 1080p, 720p. 480p, 360p Anime Sub Indo.
+            Want to watch the best movie with English subtitles? Streaming movies from this website <data:post.title/>,
+            movie streaming website with English subtitles and watch movies updated every day, <data:post.title/>,
+            Latest Updated and Most Complete with 1080p, 720p Quality. 480p, 360p Movie Sub English.
             <label class='cp more minus' expr:for='data:widget.instanceId + &quot;-w&quot;'>-less</label></span>
                             </b:includable>
           <b:includable id='linkShare'>
@@ -4515,9 +4475,9 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
           <div class='disclaim'> </div>
           </div>
           <div class='socials'>
-            <a href='https://web.facebook.com/emissionsubs/' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 448 512' width='0.88em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48c27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z' fill='currentColor'/></svg> </a> 
-            <a href='https://trakteer.id/wernayasa' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M12.75 3.94c1-.72 2.16-1.08 3.47-1.08c.72 0 1.51.19 2.37.59c.86.39 1.54.85 2.04 1.38c1.03 1.28 1.46 2.77 1.31 4.47c-.16 1.7-.72 3.03-1.69 3.97l-7.59 7.59c-.19.19-.43.28-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.25-.22.25-.45 0-.7c-.25-.25-.48-.25-.7 0l-4.59 4.59a.95.95 0 0 1-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.27-.25.27-.5 0-.75c-.23-.25-.45-.25-.7 0l-4.59 4.64a.98.98 0 0 1-.71.28c-.28 0-.52-.09-.73-.28c-.2-.19-.3-.42-.3-.7c0-.28.11-.53.33-.75l4.6-4.6c.25-.25.25-.48 0-.7c-.25-.22-.49-.22-.71 0L6.28 14.5c-.22.2-.45.31-.7.31c-.28 0-.52-.1-.7-.31c-.19-.2-.29-.44-.29-.72c0-.28.1-.51.29-.7C7.94 10 9.83 8.14 10.55 7.45l3.56 3.52c.39.37.84.56 1.39.56c.7 0 1.25-.28 1.66-.84c.28-.41.38-.86.3-1.36c-.08-.5-.29-.92-.63-1.27l-4.08-4.12m2.06 6.33L10.55 6l-7.08 7.08c-.84-.85-1.32-2.15-1.43-3.92c-.11-1.76.37-3.29 1.43-4.57c1.19-1.18 2.61-1.78 4.26-1.78c1.66 0 3.07.6 4.22 1.78l4.27 4.27c.19.19.28.42.28.7c0 .28-.09.52-.28.71c-.19.18-.42.28-.72.28c-.27 0-.5-.1-.69-.28z' fill='currentColor'/></svg> </a> 
-            <a href='https://discord.com/invite/KRQQKzQ6CS' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z' fill='currentColor'/></svg> </a> 
+            <a href='https://web.facebook.com/emissionsubs/' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 448 512' width='0.88em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48c27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z' fill='#a10a0a'/></svg> </a> 
+            <a href='https://trakteer.id/wernayasa' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M12.75 3.94c1-.72 2.16-1.08 3.47-1.08c.72 0 1.51.19 2.37.59c.86.39 1.54.85 2.04 1.38c1.03 1.28 1.46 2.77 1.31 4.47c-.16 1.7-.72 3.03-1.69 3.97l-7.59 7.59c-.19.19-.43.28-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.25-.22.25-.45 0-.7c-.25-.25-.48-.25-.7 0l-4.59 4.59a.95.95 0 0 1-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.27-.25.27-.5 0-.75c-.23-.25-.45-.25-.7 0l-4.59 4.64a.98.98 0 0 1-.71.28c-.28 0-.52-.09-.73-.28c-.2-.19-.3-.42-.3-.7c0-.28.11-.53.33-.75l4.6-4.6c.25-.25.25-.48 0-.7c-.25-.22-.49-.22-.71 0L6.28 14.5c-.22.2-.45.31-.7.31c-.28 0-.52-.1-.7-.31c-.19-.2-.29-.44-.29-.72c0-.28.1-.51.29-.7C7.94 10 9.83 8.14 10.55 7.45l3.56 3.52c.39.37.84.56 1.39.56c.7 0 1.25-.28 1.66-.84c.28-.41.38-.86.3-1.36c-.08-.5-.29-.92-.63-1.27l-4.08-4.12m2.06 6.33L10.55 6l-7.08 7.08c-.84-.85-1.32-2.15-1.43-3.92c-.11-1.76.37-3.29 1.43-4.57c1.19-1.18 2.61-1.78 4.26-1.78c1.66 0 3.07.6 4.22 1.78l4.27 4.27c.19.19.28.42.28.7c0 .28-.09.52-.28.71c-.19.18-.42.28-.72.28c-.27 0-.5-.1-.69-.28z' fill='#a10a0a'/></svg> </a> 
+            <a href='https://discord.com/invite/KRQQKzQ6CS' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z' fill='#a10a0a'/></svg> </a> 
           </div>
           <div class='disclaim'>Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</div>
   </b:includable>
