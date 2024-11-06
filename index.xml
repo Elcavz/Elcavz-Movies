@@ -734,7 +734,7 @@ table{width:100%;}
 .tag.ep{left:0;background:#a10a0a;border-bottom-right-radius:8px;}
 .tag{top:0;font-size:.85em;padding:2px 6px 0;color:#eee;}
 .DagTo{margin-bottom:25px;width:100%;background:var(--gray-dark);border-radius:2px;padding-bottom:0}.DagPlaArea{width:100%;transition:width .2s;position:relative;padding:0;overflow:hidden;line-height:20px;border-bottom-right-radius:.3rem;border-bottom-left-radius:.3rem;}#server{overflow:hidden;}#server ul{list-style-type:none;margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline}#server ul li{display:inline-block;}#server .DagPlayOpt{width:auto;padding:5px 10px;text-align:center;min-width: 38px;font-weight:400;cursor:pointer;font-size:14px;background: #303030;border-radius: 3px;margin: 0 5px 10px;}#server .DagPlayOpt.on{color:#fff;background:var(--primary);}.video-content{background:#000;overflow:hidden}#embed_holder,#pembed,.video-content{position:relative}#pembed{max-width:100%;height:0;padding-bottom:56.25%}.playerload{width:80px;height:80px;border-radius:150px;border:15px solid #fff;border-top-color:rgba(0,0,0,.3);box-sizing:border-box;position:absolute;top:50%;left:50%;margin-top:-38px;margin-left:-38px;animation:playerload 1.2s linear infinite;-webkit-animation:playerload 1.2s linear infinite}@keyframes playerload{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}@-webkit-keyframes playerload{0%{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(360deg)}}#embed_holder embed,#embed_holder iframe{z-index:1;position:absolute;border:none;width:100%;height:100%;top:0;left:0;margin:0;padding:0}.video-nav{display: flex;justify-content: space-between;background: var(--secondary);position:relative;overflow:hidden;font-size:.85em;color:#888;height:38px;line-height:38px;}.itemleft{overflow:hidden;font-weight:300;}.itemleft .icon,.itemright .icon{display:inline-flex;align-items:center;gap:2px;padding:0 8px;cursor:pointer}.itemleft .icon.turnedOff{color:#fff;z-index:999999;position:relative;}.video-nav .icon svg,span.light:before{color:#ababab;vertical-align:middle;border-radius:10px}.video-nav .icon svg{width:14px;height:14px;font-size:14px;}span.light:before{content:'';background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M11,18H13V15.87C14.73,15.43 16,13.86 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13.86 9.27,15.43 11,15.87V18Z' fill='%233c97f3'/%3E%3C/svg%3E") center/20px no-repeat;display:inline-block;margin-right:7px;min-width:20px;min-height:20px}.PlayShare{overflow:hidden;width:100%;padding-top:0;line-height:20px}#shadow,.PlayShare.None{display:none;transition:.5s}.ShareSection{overflow:hidden;padding:7px}.ShareSection b{color:#222d34;font-size:16px;margin-right:5px;line-height:22px;border-right:2px solid #fff;padding-right:10px;font-weight:500}.ShareSection b,.sosmed,.sosmed a{display:inline-block}.sosmed a{width:auto;height:auto;font-size:12px;color:#fff!important;border-radius:4px;background:#444;margin:6px;padding:3px 15px}a.shrFB{background:#1877f2}a.shrTW{background:#1da1f2}#shadow{position:fixed;left:0;top:0;bottom:0;background:rgba(0,0,0,.93);width:100%;height:100%;z-index:1;transition:all .5s ease}.DaBlock{display:none;transition:.5s}.DaBlock{display:block!important}
-.resIn {background:var(--secondary);min-height: 50px;padding: 12px;color: #fff;display: none;border-radius: .3rem;}.server_option {background: var(--secondary);padding: 15px;border-radius: .3rem;margin-bottom: 1.66rem;}#server .DagPlayOpt:hover {background: #363636;}.servers {margin-bottom: 10px;display: flex;justify-content: flex-end;gap: 5px;}.tabs span {color: #525252;cursor: pointer;padding: 2px 5px;border-radius: .25rem;font-weight: 600;font-size: .98em;transition: all .15s;}.tabs span.active {color: #eee;}.DagTo .icon:hover {background: #141414;}.tabs span:hover,.tabs a:hover {color: #787878;}.serverEpisode {display: none}.video-nav .icon a {color: #888}
+.resIn {background:var(--secondary);min-height: 50px;padding: 12px;color: #fff;display: block;border-radius: .3rem;}.server_option {background: var(--secondary);padding: 15px;border-radius: .3rem;margin-bottom: 1.66rem;}#server .DagPlayOpt:hover {background: #363636;}.servers {margin-bottom: 10px;display: flex;justify-content: flex-end;gap: 5px;}.tabs span {color: #525252;cursor: pointer;padding: 2px 5px;border-radius: .25rem;font-weight: 600;font-size: .98em;transition: all .15s;}.tabs span.active {color: #eee;}.DagTo .icon:hover {background: #141414;}.tabs span:hover,.tabs a:hover {color: #787878;}.serverEpisode {display: none}.video-nav .icon a {color: #888}
 /* Random Post Multi Tab */
 @charset "UTF-8";@keyframes tooltipster-fading{0%{opacity:0;}100%{opacity:1;}}
 @keyframes tooltipster-rotating{25%{transform:rotate(-2deg);}75%{transform:rotate(2deg);}100%{transform:rotate(0);}}
@@ -1352,12 +1352,17 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
   <b:if cond='data:view.isMultipleItems or data:view.isPost'>
   <script type='text/javascript'>/*<![CDATA[*/
 const mTP={shuffleArray:t=>{var e,i,n=t.length;if(0===n)return!1;for(;--n;)e=Math.floor(Math.random()*(n+1)),i=t[n],t[n]=t[e],t[e]=i;return t},run:(t,e,i=10,n=5)=>{if(0==t("#mTP_Slider").length)return console.log("Tag mTP_Slider tidak ada");mTP.maxCat=n,mTP.max=i,window.matchMedia("(max-width: 600px)").matches&&(mTP.maxCat=3),window.matchMedia("(max-width: 480px)").matches&&(mTP.maxCat=2);const a=0==e?"":`/-/${e}`;t.ajax({url:`/feeds/posts/default${a}?alt=json-in-script&max-results=150`,type:"get",dataType:"jsonp",success:function(e){mTP.compile(t,e)},error:function(t){console.log(t)}})},compile:(t,e)=>{if("entry"in e.feed){const n=mTP.shuffleArray(e.feed.entry);mTP.filter=mTP.shuffleArray(e.feed.category.map(t=>t.term).filter(t=>{if(mTP.Select.includes(t))return t})).slice(0,mTP.maxCat),mTP.obj={},t.each(mTP.filter,function(e,i){n.filter(e=>{const n=e.category.map(t=>t.term);if(n.includes(i)){const a=mTP.obj[i];a?a.length<mTP.max&&a.push({title:e.title.$t,cat:n,link:e.link.find(t=>"alternate"==t.rel).href,image:"media$thumbnail"in e?e.media$thumbnail.url.match(/\/s[0-9]{2}-(w[0-9]+-)?c/)?e.media$thumbnail.url.replace(/\/s[0-9]{2}-(w[0-9]+-)?c/,`/${mTP.iSize}-p-k-no-nu`):e.media$thumbnail.url.replace(/\=s[0-9]{2}-(w[0-9]+-)?c/,`=${mTP.iSize}-p-k-no-nu`):"content"in e?t(e.content.$t).find("img").attr("src"):mTP.noImage}):mTP.obj[i]=[{title:e.title.$t,cat:n,link:e.link.find(t=>"alternate"==t.rel).href,image:"media$thumbnail"in e?e.media$thumbnail.url.match(/\/s[0-9]{2}-(w[0-9]+-)?c/)?e.media$thumbnail.url.replace(/\/s[0-9]{2}-(w[0-9]+-)?c/,`/${mTP.iSize}-p-k-no-nu`):e.media$thumbnail.url.replace(/\=s[0-9]{2}-(w[0-9]+-)?c/,`=${mTP.iSize}-p-k-no-nu`):"content"in e?t(e.content.$t).find("img").attr("src"):mTP.noImage}]}})});const a=t('<div class="series-gen"><div class="head"><div class="r-title"><svg type="button" onclick="mTP.run(jQuery, &#039;Anime&#039;, 11, 3)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M17.65 6.35A7.958 7.958 0 0 0 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z" fill="currentColor"/></svg></div><ul class="nav-tabs tabs"></ul></div><div class="listupd"></div></div>'),l=Object.keys(mTP.obj).sort().reduce((t,e)=>(t[e]=mTP.obj[e],t),{});for(var i in l){const e=i.replace(/\W/g,"");a.find(".nav-tabs").append(`<li><span data-id="series-${e}">${i}</span></li>`),a.find(".listupd").append(`<div id="series-${e}" class="customAF scroll"><div class="inner scrolling"></div>${mTP.btnPrev}${mTP.btnNext}</div>`),t.each(mTP.obj[i],function(){a.find(`#series-${e} .inner`).append(`<article class="customAgata">\n          <a href="${this.link}" title="${this.title}">\n            <div class="images">\n              <figure>\n                <img src="${this.image}" alt="${this.title}">\n              </figure>\n            </div>\n            <h2 class="entry-title">${this.title}</h2>\n          </a>\n        </article>`)})}t("#mTP_Slider").html(a),t(".nav-tabs li").click(function(){const e=t(this).find("span").attr("data-id");t(".customAF.scroll, .nav-tabs li").each(function(){t(this).attr("id")==e||t(this).find("span").attr("data-id")==e?t(this).addClass("active"):t(this).removeClass("active")})}),t(".nav-tabs li").first().click()}},sN:t=>{let e=t.parentElement.querySelector(".inner.scrolling"),i=e.clientWidth;e.scrollLeft+=i},sB:t=>{let e=t.parentElement.querySelector(".inner.scrolling"),i=e.clientWidth;e.scrollLeft-=i},btnNext:'<button onclick="mTP.sN(this)" class="scrollButton right"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M15.713 12l-6.01-6.01l-1.415 1.414l4.6 4.6l-4.6 4.593l1.414 1.414L15.713 12z" fill="currentColor"/></g></svg></button>',btnPrev:'<button onclick="mTP.sB(this)" class="scrollButton left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M8.288 12l6.01 6.01l1.414-1.414l-4.6-4.6l4.6-4.6l-1.414-1.406L8.288 12z" fill="currentColor"/></g></svg></button>',iSize:"w207-h300",noImage:"https://1.bp.blogspot.com/-BYDJ1dpFEhE/X9QnAUfeORI/AAAAAAAAHxw/OjfaqiPHjhAmCgJts39XIg7o4KR-8YtdACNcBGAsYHQ/w300-h225-p-k-no-nu/dagruel-no-image.png"};
-mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Ecchi", "Fantasy", "Game", "Harem", "Historical", "Isekai", "Horror", "Josei", "Magic", "Mecha", "Military", "Music", "Mystery", "Parody", "Police", "Psychological", "Romance", "Samurai", "School", "School Life", "Sci-Fi", "Seinen", "Shoujo", "Shoujo Ai", "Shounen", "Slice of Life", "Space", "Sports", "Super Power", "Supernatural", "Thriller", "Vampire", "Yuri"];
+mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Game", "Historical", "Horror", "Magic", "Military", "Music", "Mystery", "Psychological", "Romance", "Sci-Fi", "Sports", "Superhero", "Thriller"];
 /*]]>*/</script>
   </b:if>
 	<script crossorigin='anonymous' src='https://kit.fontawesome.com/dd61417c3c.js'/>
   </head>
   <body class='break-word'>
+  <script data-cfasync='false' type='text/javascript'>
+/*<![CDATA[/* */
+(function(){var e=window,i="f153982c1af893c3440df45a1fea2081",v=[["siteId",150+303+624+178+5146837],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],h=["d3d3LnZpc2FyaW9tZWRpYS5jb20va21panMuY3Nz","ZDEzazdwcmF4MXlpMDQuY2xvdWRmcm9udC5uZXQvUC9kcXVpY2tzb3VuZC5taW4uanM=","d3d3Lmd0ZmJ3bmVpaW4uY29tL2dtaWpzLmNzcw==","d3d3LnR5cGdvZGFvdnpoLmNvbS9aL3dxdWlja3NvdW5kLm1pbi5qcw=="],b=-1,o,a,d=function(){clearTimeout(a);b++;if(h[b]&&!(1756790507000<(new Date).getTime()&&1<b)){o=e.document.createElement("script");o.type="text/javascript";o.async=!0;var w=e.document.getElementsByTagName("script")[0];o.src="https://"+atob(h[b]);o.crossOrigin="anonymous";o.onerror=d;o.onload=function(){clearTimeout(a);e[i.slice(0,16)+i.slice(0,16)]||d()};a=setTimeout(d,5E3);w.parentNode.insertBefore(o,w)}};if(!e[i]){try{Object.freeze(e[i]=v)}catch(e){}d()}})();
+/*]]>/* */
+</script>
     <b:class cond='data:view.isHomepage' name='homepage-view'/>
     <b:class cond='data:view.isMultipleItems and !data:view.isHomepage' name='bc-131'/>
     <b:class cond='data:view.isMultipleItems' name='fv'/>
@@ -1371,6 +1376,12 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Ecchi", "Fantasy", "Gam
         <b:widget-setting name='link-5'>/search/label/Completed</b:widget-setting>
         <b:widget-setting name='link-3'>#</b:widget-setting>
         <b:widget-setting name='link-4'>/search/label/Ongoing</b:widget-setting>
+        <b:widget-setting name='text-1'>Request</b:widget-setting>
+        <b:widget-setting name='text-0'>All</b:widget-setting>
+        <b:widget-setting name='text-3'>Update</b:widget-setting>
+        <b:widget-setting name='text-2'>Newest</b:widget-setting>
+        <b:widget-setting name='text-5'>Completed</b:widget-setting>
+        <b:widget-setting name='text-4'>Ongoing</b:widget-setting>
         <b:widget-setting name='shownum'>100</b:widget-setting>
         <b:widget-setting name='sorting'>NONE</b:widget-setting>
         <b:widget-setting name='link-1'>#</b:widget-setting>
@@ -1601,6 +1612,21 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Ecchi", "Fantasy", "Gam
   <a class='profile-link' expr:href='data:userUrl' rel='author nofollow'>
     <data:messages.viewMyCompleteProfile/>
   </a>
+</b:includable>
+    </b:widget>
+    <b:widget id='HTML2' locked='false' title='Socials' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'><![CDATA[<a href="#" target="_blank" rel="nofollow">
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="40" height="40" preserveaspectratio="xMidYMid meet" viewbox="0 0 256 199"><path fill="#5865F2" d="M216.856 16.597A208.502 208.502 0 0 0 164.042 0c-2.275 4.113-4.933 9.645-6.766 14.046c-19.692-2.961-39.203-2.961-58.533 0c-1.832-4.4-4.55-9.933-6.846-14.046a207.809 207.809 0 0 0-52.855 16.638C5.618 67.147-3.443 116.4 1.087 164.956c22.169 16.555 43.653 26.612 64.775 33.193A161.094 161.094 0 0 0 79.735 175.3a136.413 136.413 0 0 1-21.846-10.632a108.636 108.636 0 0 0 5.356-4.237c42.122 19.702 87.89 19.702 129.51 0a131.66 131.66 0 0 0 5.355 4.237a136.07 136.07 0 0 1-21.886 10.653c4.006 8.02 8.638 15.67 13.873 22.848c21.142-6.58 42.646-16.637 64.815-33.213c5.316-56.288-9.08-105.09-38.056-148.36ZM85.474 135.095c-12.645 0-23.015-11.805-23.015-26.18s10.149-26.2 23.015-26.2c12.867 0 23.236 11.804 23.015 26.2c.02 14.375-10.148 26.18-23.015 26.18Zm85.051 0c-12.645 0-23.014-11.805-23.014-26.18s10.148-26.2 23.014-26.2c12.867 0 23.236 11.804 23.015 26.2c0 14.375-10.148 26.18-23.015 26.18Z"/></path></svg>
+</a>
+
+<a href="#" target="_blank" rel="nofollow">
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="40" height="40" preserveaspectratio="xMidYMid meet" viewbox="0 0 256 247"><path fill="#FF424D" d="M45.136 0v246.35H0V0h45.136Zm118.521 0C214.657 0 256 41.343 256 92.343s-41.343 92.343-92.343 92.343s-92.343-41.344-92.343-92.343c0-51 41.344-92.343 92.343-92.343Z"/></path></svg>
+</a>]]></b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <b:attr name='class' value='socials'/>
+    <data:content/>
 </b:includable>
     </b:widget>
   </b:section>
@@ -3017,6 +3043,19 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
  
 </b:includable>
         </b:widget>
+        <b:widget id='Text2' locked='false' title='Changelog' type='Text' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='content'><![CDATA[<aside class="score">
+<p class="mb-05 text-1d5 fw-700 lh-1d4 my-025">Modal Box<span class="c-959 text-075 fw-400">
+<span>52%</span>progress</span>
+</p>
+<div class="progress"><span class="all-03s" style="width:52%;"></span></div>
+</aside>]]></b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'> 
+    <data:content/>
+</b:includable>
+        </b:widget>
       </b:section>
       </b:tag>
       <b:section id='main' showaddelement='true'>
@@ -3791,7 +3830,7 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
             </b:if>
           </b:includable>
           <b:includable id='genre'>
-            <b:with value='[&quot;Action&quot;,&quot;Adventure&quot;,&quot;Comedy&quot;,&quot;Crime&quot;,&quot;Drama&quot;,&quot;Fantasy&quot;,&quot;Historical&quot;,&quot;Horror&quot;,&quot;Isekai&quot;,&quot;Magical Girls&quot;,&quot;Mecha&quot;,&quot;Medical&quot;,&quot;Mystery&quot;,&quot;Philosophical&quot;,&quot;Psychological&quot;,&quot;Romance&quot;,&quot;Sci-Fi&quot;,&quot;Shoujo Ai&quot;,&quot;Shounen Ai&quot;,&quot;Slice of Life&quot;,&quot;Sports&quot;,&quot;Superhero&quot;,&quot;Thriller&quot;,&quot;Tragedy&quot;,&quot;Wuxia&quot;,&quot;Yaoi&quot;,&quot;Yuri&quot;,&quot;Tsundere&quot;,&quot;Yandere&quot;]' var='Genre'>
+            <b:with value='[&quot;Action&quot;,&quot;Adventure&quot;,&quot;Comedy&quot;,&quot;Crime&quot;,&quot;Drama&quot;,&quot;Fantasy&quot;,&quot;Historical&quot;,&quot;Horror&quot;,&quot;Mystery&quot;,&quot;Psychological&quot;,&quot;Romance&quot;,&quot;Sci-Fi&quot;,&quot;Sports&quot;,&quot;Superhero&quot;,&quot;Thriller&quot;]' var='Genre'>
         <b:with value='[&quot;Adaptation&quot;,&quot;Cooking&quot;,&quot;Harem&quot;,&quot;Loli&quot;,&quot;Mafia&quot;,&quot;Magic&quot;,&quot;Military&quot;,&quot;Music&quot;,&quot;Reincarnation&quot;,&quot;Reverse Harem&quot;,&quot;Samurai&quot;,&quot;School Life&quot;,&quot;Supernatural&quot;,&quot;Survival&quot;,&quot;Time Travel&quot;,&quot;Vampire&quot;,&quot;Video Games&quot;,&quot;Demon&quot;,&quot;Monsters&quot;,&quot;Martial Arts&quot;,&quot;Virtual Reality&quot;,&quot;Demons&quot;,&quot;Monster Girls&quot;,&quot;Monsters&quot;,&quot;Police&quot;]' var='Genre2'>
             <b:loop index='i' values='data:post.labels' var='label'>
               <b:if cond='data:label.name in data:Genre or data:label.name in data:Genre2'>
@@ -3946,7 +3985,7 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
                     </div>
                     <div class='status'>Status: <span><b:include name='status'/></span>
                     </div>
-                    <div>Country: <span>
+                    <div>Release: <span>
                       <b:include name='country'/>
                       </span>
                     </div>            
@@ -4341,13 +4380,6 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
             </div>
                     </b:includable>
           <b:includable id='thumbLabel' var='post'>
-            <div class='absolute b-0 p-y2x6b0 ep fs-13 c-eee blr5 trr8 not[Ep]'>
-              <b:loop index='i' values='data:post.labels' var='label'>
-                <span expr:data='data:label.name'>
-                  <data:label.name/>
-                </span>
-              </b:loop>
-            </div>
 <b:with value='[&quot;0&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;]' var='checkNumber'>
   <b:if cond='data:post.labels'>
     <b:loop values='data:post.labels' var='item'>
@@ -4457,7 +4489,7 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
         <b:widget-settings>
           <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEB-_b3rtJKQKRWFOqMqbqI_sPPUmkiuGnAUgbbTk6FUI24ffNn7HFhEydC8Ytwbx1oxLyQdJ3qmpivVniSbnoAH1VoixMzTLz2Y2P688dgla8j5kf9y8YDzETZWcKhyE7GBV7050n4RM7tQHcWEq9Qc-NYvEUwnmKU-vnGas5AuQOdxQjF9bp_HS9/s744/logo.png</b:widget-setting>
           <b:widget-setting name='displayHeight'>213</b:widget-setting>
-          <b:widget-setting name='sectionWidth'>1217</b:widget-setting>
+          <b:widget-setting name='sectionWidth'>1601</b:widget-setting>
           <b:widget-setting name='useImage'>true</b:widget-setting>
           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
           <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
@@ -4566,6 +4598,81 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
      </b:loop>
    </ul>
  </nav>
+</b:includable>
+      </b:widget>
+      <b:widget id='LinkList1' locked='false' title='A-Z List' type='LinkList' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='text-26'>Y</b:widget-setting>
+          <b:widget-setting name='text-27'>Z</b:widget-setting>
+          <b:widget-setting name='text-22'>U</b:widget-setting>
+          <b:widget-setting name='text-23'>V</b:widget-setting>
+          <b:widget-setting name='text-24'>W</b:widget-setting>
+          <b:widget-setting name='text-25'>X</b:widget-setting>
+          <b:widget-setting name='text-9'>H</b:widget-setting>
+          <b:widget-setting name='text-8'>G</b:widget-setting>
+          <b:widget-setting name='text-20'>S</b:widget-setting>
+          <b:widget-setting name='text-21'>T</b:widget-setting>
+          <b:widget-setting name='text-1'>0-9</b:widget-setting>
+          <b:widget-setting name='text-0'>All</b:widget-setting>
+          <b:widget-setting name='text-3'>B</b:widget-setting>
+          <b:widget-setting name='text-2'>A</b:widget-setting>
+          <b:widget-setting name='text-5'>D</b:widget-setting>
+          <b:widget-setting name='text-4'>C</b:widget-setting>
+          <b:widget-setting name='text-7'>F</b:widget-setting>
+          <b:widget-setting name='text-6'>E</b:widget-setting>
+          <b:widget-setting name='text-19'>R</b:widget-setting>
+          <b:widget-setting name='text-15'>N</b:widget-setting>
+          <b:widget-setting name='text-16'>O</b:widget-setting>
+          <b:widget-setting name='text-17'>P</b:widget-setting>
+          <b:widget-setting name='text-18'>Q</b:widget-setting>
+          <b:widget-setting name='text-11'>J</b:widget-setting>
+          <b:widget-setting name='text-12'>K</b:widget-setting>
+          <b:widget-setting name='text-13'>L</b:widget-setting>
+          <b:widget-setting name='text-14'>M</b:widget-setting>
+          <b:widget-setting name='text-10'>I</b:widget-setting>
+          <b:widget-setting name='link-17'>/search/label/P</b:widget-setting>
+          <b:widget-setting name='link-16'>/search/label/O</b:widget-setting>
+          <b:widget-setting name='link-19'>/search/label/R</b:widget-setting>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='link-18'>/search/label/Q</b:widget-setting>
+          <b:widget-setting name='link-1'>#</b:widget-setting>
+          <b:widget-setting name='link-13'>/search/label/L</b:widget-setting>
+          <b:widget-setting name='link-2'>/search/label/A</b:widget-setting>
+          <b:widget-setting name='link-12'>/search/label/K</b:widget-setting>
+          <b:widget-setting name='link-15'>/search/label/N</b:widget-setting>
+          <b:widget-setting name='link-0'>#</b:widget-setting>
+          <b:widget-setting name='link-14'>/search/label/M</b:widget-setting>
+          <b:widget-setting name='link-11'>/search/label/J</b:widget-setting>
+          <b:widget-setting name='link-10'>/search/label/I</b:widget-setting>
+          <b:widget-setting name='link-9'>/search/label/H</b:widget-setting>
+          <b:widget-setting name='link-7'>/search/label/F</b:widget-setting>
+          <b:widget-setting name='link-8'>/search/label/G</b:widget-setting>
+          <b:widget-setting name='link-5'>/search/label/D</b:widget-setting>
+          <b:widget-setting name='link-6'>/search/label/E</b:widget-setting>
+          <b:widget-setting name='link-3'>/search/label/B</b:widget-setting>
+          <b:widget-setting name='link-4'>/search/label/C</b:widget-setting>
+          <b:widget-setting name='link-27'>/search/label/Z</b:widget-setting>
+          <b:widget-setting name='link-24'>/search/label/W</b:widget-setting>
+          <b:widget-setting name='link-23'>/search/label/V</b:widget-setting>
+          <b:widget-setting name='link-26'>/search/label/Y</b:widget-setting>
+          <b:widget-setting name='link-25'>/search/label/X</b:widget-setting>
+          <b:widget-setting name='link-20'>/search/label/S</b:widget-setting>
+          <b:widget-setting name='link-22'>/search/label/U</b:widget-setting>
+          <b:widget-setting name='link-21'>/search/label/T</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:class name='azlist'/>
+          <div class='head'> <span class='title'>A-Z List</span> <span class='desc'>Searching movie order by alphabet name A to Z.</span> </div>
+  <b:include name='content'/>
+</b:includable>
+        <b:includable id='content'>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+ </div>
 </b:includable>
       </b:widget>
     </b:section>
@@ -4908,6 +5015,34 @@ if(list.length<limitBookmark){
 }
 displayNum();
   })
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var adBlockEnabled = false;
+
+  // Create a dummy ad element to check if it's blocked
+  var adTest = document.createElement('div');
+  adTest.innerHTML = '&nbsp;';
+  adTest.className = 'adsbox';
+  adTest.style = 'display:none;';
+  document.body.appendChild(adTest);
+
+  window.setTimeout(function () {
+    if (adTest.offsetHeight === 0) {
+      adBlockEnabled = true;
+    }
+    adTest.remove();
+
+    if (adBlockEnabled) {
+      // Show the popup if adblock is detected
+      document.getElementById('adblock-popup').style.display = 'block';
+    }
+  }, 100);
+
+  // Close popup button functionality
+  document.getElementById('close-popup').addEventListener('click', function () {
+    document.getElementById('adblock-popup').style.display = 'none';
+  });
 });
      //]]></script>
      </b:if>
