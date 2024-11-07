@@ -3,7 +3,7 @@
 <html b:css='false' b:defaultwidgetversion='2' b:js='true' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
   	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-    <!-- Meta Umum -->
+    <!-- Meta General -->
     <b:include data='blog' name='google-analytics'/>
 	<meta content='width=device-width,initial-scale=1' name='viewport'/>
 	<link expr:href='data:view.url.canonical' rel='canonical'/>
@@ -14,15 +14,15 @@
     <meta content='blogger' name='generator'/>
     <meta expr:charset='data:blog.encoding'/>
     <meta content='unsafe-url' name='referrer'/>
-    <!-- Meta Kata Kunci -->
+    <!-- Meta Keywords -->
     <meta content='free, latest, movies, HD, 1080, watch, download, elcavz' name='keywords'/>
     <meta expr:content='data:blog.title' property='article:tag'/>
-	<!-- Meta Deskripsi -->
+	<!-- Meta Description -->
 	<b:if cond='data:view.description'>
 	<meta expr:content='data:view.description.escaped' property='og:description'/>
 	<meta expr:content='data:view.description.escaped' name='description'/>
 	</b:if>
-    <!-- Meta Judul -->
+    <!-- Meta Title -->
 	<b:if cond='data:view.isHomepage or (data:view.isSearch and !data:view.isLabelSearch and !data:blog.searchQuery)'>
     <title><data:view.title.escaped/> - Online Streaming</title>
     <meta expr:content='data:view.title' property='og:title'/>
@@ -197,7 +197,7 @@ input{accent-color:#a10a0a;}
 [tabindex="-1"]:focus:not(:focus-visible){outline:0!important;}
 h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem;}
 ul ul{margin-bottom:0;}
-a{color:#a885da;text-decoration:none;background-color:transparent;transition:all .15s;}
+a{color:#bcbbbd;text-decoration:none;background-color:transparent;transition:all .15s;}
 a:not([href]):not([class]){color:inherit;text-decoration:none;}
 a:not([href]):not([class]):hover{color:inherit;text-decoration:none;}
 button{border-radius:0;}
@@ -996,6 +996,28 @@ column-gap: 8px;
 #sidebar .opt > div {
 width: calc(50% - 8px);
 }
+.blog-pager {
+    margin-top: 20px;
+    border-top: 1px solid var(--secondary);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#blog-pager a, .showpageOf {
+    padding: 9px 16px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: var(--secondary);
+    display: inline-block;
+}
+.pagecurrent {
+  color: #545454;
+  padding: 9px 16px;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: var(--secondary);
+  display: inline-block;
+}
 .filters .dropdown-toggle{transition:all .15s;padding:0 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;text-align:center;cursor:pointer;}
 @media screen and (min-width:1280px){#main .filters .dropdown-menu.lg{max-width:500px;}}
 @media screen and (max-width:576px){.filters .dropdown-menu.lg{width:300px;}}
@@ -1228,21 +1250,21 @@ body#layout:after{content:'Designed by - https://github.com/Nabeelshar/9anime';d
           <script async='async'>/*<![CDATA[*/ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h3 class='heading'>Related Posts</h3>",widgetStyle:1,homePage:"http://www.jagodesain.com",numPosts:7,summaryLength:320,titleLength:"auto",thumbnailSize:200,noImage:"data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",containerId:"related-posts",newTabLink:false,moreText:"Read more",callBack:function(){}}; for(var f in relatedPostConfig){d[f]=(relatedPostConfig[f]=="undefined")?d[f]:relatedPostConfig[f]}var j=function(a){var b=m.createElement("script");b.async="async";b.rel="preload";b.src=a;k.appendChild(b)},o=function(b,a){return Math.floor(Math.random()*(a-b+1))+b},l=function(a){var p=a.length,c,b;if(p===0){return false}while(--p){c=Math.floor(Math.random()*(p+1));b=a[p];a[p]=a[c];a[c]=b}return a},e=(typeof labelArray=="object"&&labelArray.length>0)?"/-/"+l(labelArray)[0]:"",h=function(b){var c=b.feed.openSearch$totalResults.$t-d.numPosts,a=o(1,(c>0?c:1));j(d.homePage.replace(/\/$/,"")+"/feeds/posts/default/-/Anime"+e+"?alt=json-in-script&orderby=updated&start-index="+a+"&max-results="+d.numPosts+"&callback=showRelatedPost")},g=function(z){var s=document.getElementById(d.containerId),x=l(z.feed.entry),A=d.widgetStyle,c=d.widgetTitle+'<ul class="p-0 grid gtc-raf g-var lsn style-'+A+'">',b=d.newTabLink?' target="_blank"':"",y='<!-- <div class="clear"/> -->',v,t,w,r,u;if(!s){return}for(var q=0;q<d.numPosts;q++){if(q==x.length){break}t=x[q].title.$t;w=(d.titleLength!=="auto"&&d.titleLength<t.length)?t.substring(0,d.titleLength)+"&hellip;":t; r=("media$thumbnail"in x[q]&&d.thumbnailSize!==false)?x[q].media$thumbnail.url.replace(/.*?:\/\//g , "//").replace(/\/s[0-9]+(\-c)?/, "/s"+d.thumbnailSize):d.noImage;u=("summary"in x[q]&&d.summaryLength>0)?x[q].summary.$t.replace(/<br ?\/?>/g," ").replace(/<.*?>/g,"").replace(/[<>]/g,"").substring(0,d.summaryLength)+"&hellip;":"";for(var p=0,a=x[q].link.length;p<a;p++){v=(x[q].link[p].rel=="alternate")?x[q].link[p].href:"#"} if(A==2){c+='<li class="hentry play c:hover-eee"><div class="item-related"><a class="block ofc relative poster r3 oh" href="'+v+'"><img class="ar-2sx h-max w-max lazy" loading="lazy" alt="'+w+'" src="'+r+'"></a><div class="clamp oh tac mt-8"><a class="fs-md fw-400 c-aba" href="'+v+'">'+w+'</a></div></div></li>'} else{c+='<li><div class="item-related"><div class="block ofc relative poster r3 oh"><div><img class="post-thumb lazy" loading="lazy" alt="'+w+'" src="'+r+'"></div></div><div class="item-title"><a class="fs-md fw-400 c-aba" href="'+v+'">'+w+'</a></div></div></li>'} }s.innerHTML=c+="</ul>";d.callBack()};randomRelatedIndex=h;showRelatedPost=g;j(d.homePage.replace(/\/$/,"")+"/feeds/posts/default/"+e+"?alt=json-in-script&orderby=updated&max-results=0&callback=randomRelatedIndex")})(window,document,document.getElementsByTagName("head")[0]); /*]]>*/</script>
         </div>
       </b:includable>
-      <b:includable id='postPaginationNumeric'>
+      <b:includable id='postPaginationMore'>
         <script>/*<![CDATA[*/
 var noPage,currentPage,currentPageNo,postLabel,
-perPage=9,
+perPage=18,
 numPages=3,
 firstText="First",
 lastText="Last",
 prevText="Previous",
 nextText="Next",
 
-urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";pageNumber=parseInt(numPages/2),pageNumber==numPages-pageNumber&&(numPages=2*pageNumber+1),pageStart=currentPageNo-pageNumber,pageStart<1&&(pageStart=1),lastPageNo=parseInt(e/perPage)+1,lastPageNo-1==e/perPage&&(lastPageNo-=1),pageEnd=pageStart+numPages-1,pageEnd>lastPageNo&&(pageEnd=lastPageNo),a+="<span class='showpageOf'>Page "+currentPageNo+" of "+lastPageNo+"</span>";var t=parseInt(currentPageNo)-1;currentPageNo>1&&(a+="page"==currentPage?'<span class="showpage firstpage"><a href="'+home_page+'">'+firstText+"</a></span>":'<span class="displaypageNum firstpage"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">'+firstText+"</a></span>"),currentPageNo>2&&(a+=3==currentPageNo?"page"==currentPage?'<span class="showpage"><a href="'+home_page+'">'+prevText+"</a></span>":'<span class="displaypageNum"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">'+prevText+"</a></span>":"page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+t+');return false">'+prevText+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+t+');return false">'+prevText+"</a></span>"),pageStart>1&&(a+="page"==currentPage?'<span class="displaypageNum"><a href="'+home_page+'">1</a></span>':'<span class="displaypageNum"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">1</a></span>'),pageStart>2&&(a+=" ... ");for(var s=pageStart;s<=pageEnd;s++)a+=currentPageNo==s?'<span class="pagecurrent">'+s+"</span>":1==s?"page"==currentPage?'<span class="displaypageNum"><a href="'+home_page+'">1</a></span>':'<span class="displaypageNum"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">1</a></span>':"page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+s+');return false">'+s+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+s+');return false">'+s+"</a></span>";pageEnd<lastPageNo-1&&(a+="..."),pageEnd<lastPageNo&&(a+="page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+lastPageNo+');return false">'+lastPageNo+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+lastPageNo+');return false">'+lastPageNo+"</a></span>");var r=parseInt(currentPageNo)+1;currentPageNo<lastPageNo-1&&(a+="page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+r+');return false">'+nextText+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+r+');return false">'+nextText+"</a></span>"),currentPageNo<lastPageNo&&(a+="page"==currentPage?'<span class="displaypageNum lastpage"><a href="#" onclick="redirectpage('+lastPageNo+');return false">'+lastText+"</a></span>":'<span class="displaypageNum lastpage"><a href="#" onclick="redirectlabel('+lastPageNo+');return false">'+lastText+"</a></span>");for(var p=document.getElementsByName("pageArea"),n=document.getElementById("blog-pager"),l=0;l<p.length;l++)p[l].innerHTML=a;p&&p.length>0&&(a=""),n&&(n.innerHTML=a)}function totalcountdata(e){var a=e.feed;looppagecurrentg(parseInt(a.openSearch$totalResults.$t,10))}function pagecurrentg(){var e=urlactivepage;-1!=e.indexOf("/search/label/")&&(postLabel=-1!=e.indexOf("?updated-max")?e.substring(e.indexOf("/search/label/")+14,e.indexOf("?updated-max")):e.substring(e.indexOf("/search/label/")+14,e.indexOf("?&max"))),-1==e.indexOf("?q=")&&-1==e.indexOf(".html")&&(-1==e.indexOf("/search/label/")?(currentPage="page",currentPageNo=-1!=urlactivepage.indexOf("#PageNo=")?urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length):1,document.write('<script src="'+home_page+'feeds/posts/summary?max-results=1&alt=json-in-script&callback=totalcountdata"><\/script>')):(currentPage="label",-1==e.indexOf("&max-results=")&&(perPage=20),currentPageNo=-1!=urlactivepage.indexOf("#PageNo=")?urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length):1,document.write('<script src="'+home_page+"feeds/posts/summary/-/"+postLabel+'?alt=json-in-script&callback=totalcountdata&max-results=1" ><\/script>')))}function redirectpage(e){jsonstart=(e-1)*perPage,noPage=e;var a=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.setAttribute("src",home_page+"feeds/posts/summary?start-index="+jsonstart+"&max-results=1&alt=json-in-script&callback=finddatepost"),a.appendChild(t)}function redirectlabel(e){jsonstart=(e-1)*perPage,noPage=e;var a=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.setAttribute("src",home_page+"feeds/posts/summary/-/"+postLabel+"?start-index="+jsonstart+"&max-results=1&alt=json-in-script&callback=finddatepost"),a.appendChild(t)}function finddatepost(e){post=e.feed.entry[0];var a=post.published.$t.substring(0,19)+post.published.$t.substring(23,29),t=encodeURIComponent(a);if("page"==currentPage)var s="/search?updated-max="+t+"&max-results="+perPage+"#PageNo="+noPage;else s="/search/label/"+postLabel+"?updated-max="+t+"&max-results="+perPage+"#PageNo="+noPage;location.href=s}void 0===firstText&&(firstText="First"),void 0===lastText&&(lastText="Last"),pagecurrentg();
+urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";pageNumber=parseInt(numPages/2),pageNumber==numPages-pageNumber&&(numPages=2*pageNumber+1),pageStart=currentPageNo-pageNumber,pageStart<1&&(pageStart=1),lastPageNo=parseInt(e/perPage)+1,lastPageNo-1==e/perPage&&(lastPageNo-=1),pageEnd=pageStart+numPages-1,pageEnd>lastPageNo&&(pageEnd=lastPageNo),a+="<span class='showpageOf'>Page "+currentPageNo+" of "+lastPageNo+"</span>";var t=parseInt(currentPageNo)-1;currentPageNo>1&&(a+="page"==currentPage?'<span class="showpage firstpage"><a href="'+home_page+'">'+firstText+"</a></span>":'<span class="displaypageNum firstpage"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">'+firstText+"</a></span>"),currentPageNo>2&&(a+=3==currentPageNo?"page"==currentPage?'<span class="showpage"><a href="'+home_page+'">'+prevText+"</a></span>":'<span class="displaypageNum"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">'+prevText+"</a></span>":"page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+t+');return false">'+prevText+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+t+');return false">'+prevText+"</a></span>"),pageStart>1&&(a+="page"==currentPage?'<span class="displaypageNum"><a href="'+home_page+'">1</a></span>':'<span class="displaypageNum"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">1</a></span>'),pageStart>2&&(a+=" ... ");for(var s=pageStart;s<=pageEnd;s++)a+=currentPageNo==s?'<span class="pagecurrent">'+s+"</span>":1==s?"page"==currentPage?'<span class="displaypageNum"><a href="'+home_page+'">1</a></span>':'<span class="displaypageNum"><a href="/search/label/'+postLabel+"?&max-results="+perPage+'">1</a></span>':"page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+s+');return false">'+s+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+s+');return false">'+s+"</a></span>";pageEnd<lastPageNo-1&&(a+="..."),pageEnd<lastPageNo&&(a+="page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+lastPageNo+');return false">'+lastPageNo+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+lastPageNo+');return false">'+lastPageNo+"</a></span>");var r=parseInt(currentPageNo)+1;currentPageNo<lastPageNo-1&&(a+="page"==currentPage?'<span class="displaypageNum"><a href="#" onclick="redirectpage('+r+');return false">'+nextText+"</a></span>":'<span class="displaypageNum"><a href="#" onclick="redirectlabel('+r+');return false">'+nextText+"</a></span>"),currentPageNo<lastPageNo&&(a+="page"==currentPage?'<span class="displaypageNum lastpage"><a href="#" onclick="redirectpage('+lastPageNo+');return false">'+lastText+"</a></span>":'<span class="displaypageNum lastpage"><a href="#" onclick="redirectlabel('+lastPageNo+');return false">'+lastText+"</a></span>");for(var p=document.getElementsByName("pageArea"),n=document.getElementById("blog-pager"),l=0;l<p.length;l++)p[l].innerHTML=a;p&&p.length>0&&(a=""),n&&(n.innerHTML=a)}function totalcountdata(e){var a=e.feed;looppagecurrentg(parseInt(a.openSearch$totalResults.$t,10))}function pagecurrentg(){var e=urlactivepage;-1!=e.indexOf("/search/label/")&&(postLabel=-1!=e.indexOf("?updated-max")?e.substring(e.indexOf("/search/label/")+14,e.indexOf("?updated-max")):e.substring(e.indexOf("/search/label/")+14,e.indexOf("?&max"))),-1==e.indexOf("?q=")&&-1==e.indexOf(".html")&&(-1==e.indexOf("/search/label/")?(currentPage="page",currentPageNo=-1!=urlactivepage.indexOf("#PageNo=")?urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length):1,document.write('<script src="'+home_page+'feeds/posts/summary?max-results=1&alt=json-in-script&callback=totalcountdata"><\/script>')):(currentPage="label",-1==e.indexOf("&max-results=")&&(perPage=18),currentPageNo=-1!=urlactivepage.indexOf("#PageNo=")?urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length):1,document.write('<script src="'+home_page+"feeds/posts/summary/-/"+postLabel+'?alt=json-in-script&callback=totalcountdata&max-results=1" ><\/script>')))}function redirectpage(e){jsonstart=(e-1)*perPage,noPage=e;var a=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.setAttribute("src",home_page+"feeds/posts/summary?start-index="+jsonstart+"&max-results=1&alt=json-in-script&callback=finddatepost"),a.appendChild(t)}function redirectlabel(e){jsonstart=(e-1)*perPage,noPage=e;var a=document.getElementsByTagName("head")[0],t=document.createElement("script");t.type="text/javascript",t.setAttribute("src",home_page+"feeds/posts/summary/-/"+postLabel+"?start-index="+jsonstart+"&max-results=1&alt=json-in-script&callback=finddatepost"),a.appendChild(t)}function finddatepost(e){post=e.feed.entry[0];var a=post.published.$t.substring(0,19)+post.published.$t.substring(23,29),t=encodeURIComponent(a);if("page"==currentPage)var s="/search?updated-max="+t+"&max-results="+perPage+"#PageNo="+noPage;else s="/search/label/"+postLabel+"?updated-max="+t+"&max-results="+perPage+"#PageNo="+noPage;location.href=s}void 0===firstText&&(firstText="First"),void 0===lastText&&(lastText="Last"),pagecurrentg();
  /*]]>*/</script>
       </b:includable>
-      <b:includable id='postPaginationMore'>
-        <script>/*<![CDATA[*/ !function(t,e){t.InfiniteScroll=function(n){function r(t,n){return n=n||e,n.querySelectorAll(t)}function o(t){return void 0!==t}function a(t){return"function"==typeof t}function i(t,e){t=t||{};for(var n in e)t[n]="object"==typeof e[n]?i(t[n],e[n]):e[n];return t}function s(t,e,n){return o(t)?o(e)?void(o(n)?g[t][n]=e:g[t].push(e)):g[t]:g}function d(t,e){o(e)?delete g[t][e]:g[t]=[]}function l(t,e){if(o(g[t]))for(var n in g[t])g[t][n](e)}function c(){return L.innerHTML=p.text.loading,v=!0,M?(y.classList.add(p.state.loading),l("loading",[p]),void u(M,function(t,n){y.className=x+" "+p.state.load,h=e.createElement("div"),h.innerHTML=t;var o=r("title",h),a=r(p.target.post,h),i=r(p.target.anchors+" "+p.target.anchor,h),s=r(p.target.post,H);if(o=o&&o[0]?o[0].innerHTML:"",a.length&&s.length){var d=s[s.length-1];e.title=o,d.insertAdjacentHTML("afterend",' '),h=e.createElement("div");for(var c=0,u=a.length;u>c;++c)h.appendChild(a[c]);d.insertAdjacentHTML("afterend",h.innerHTML),f(),M=i.length?i[0].href:!1,v=!1,q++,l("load",[p,t,n])}},function(t,e){y.classList.add(p.state.error),v=!1,f(1),l("error",[p,t,e])})):(y.classList.add(p.state.loaded),L.innerHTML=p.text.loaded,l("loaded",[p]))}function f(t){if(L.innerHTML="",T){h.innerHTML=p.text[t?"error":"load"];var e=h.firstChild;e.onclick=function(){return 2===p.type&&(T=!1),c(),!1},L.appendChild(e)}}var u="infinite-scroll-state-",p={target:{posts:".posts",post:".post",anchors:".anchors",anchor:".anchor"},text:{load:"%s",loading:"%s",loaded:"%s",error:"%s"},state:{load:u+"load",loading:u+"loading",loaded:u+"loaded",error:u+"error"}},g={load:[],loading:[],loaded:[],error:[]};p=i(p,n||{}),p.on=s,p.off=d;var h=null,u=function(e,n,r){if(t.XMLHttpRequest){var o=new XMLHttpRequest;o.onreadystatechange=function(){if(4===o.readyState){if(200!==o.status)return void(r&&a(r)&&r(o.responseText,o));n&&a(n)&&n(o.responseText,o)}},o.open("GET",e),o.send()}},T=1!==p.type,v=!1,H=r(p.target.posts)[0],L=r(p.target.anchors)[0],M=r(p.target.anchor,L),m=e.body,y=e.documentElement,x=y.className||"",E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=0,b=null,q=1;if(M.length){M=M[0].href,H.insertAdjacentHTML("afterbegin",' '),h=e.createElement("div"),f();var w=function(){E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=m.scrollTop||y.scrollTop,v||E>A+j||c()};w(),0!==p.type&&t.addEventListener("scroll",function(){T||(b&&t.clearTimeout(b),b=t.setTimeout(w,200))},!1)}return p}}(window,document);var infinite_scroll = new InfiniteScroll({ type: 0, target: {posts: '.blog-posts', post: '.hentry', anchors: '.blog-pager', anchor: '.blog-pager-older-link'}, text: {load: '<a class="js-load load-more flex aic" href="javascript:void(0)">Next <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M5.75 12.25L10.25 8l-4.5-4.25"/></g></svg></a>', loading: '<a class="flex aic"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 50 50" xml:space="preserve"><path d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"/></path></svg><span>Please Wait...</span></a>', loaded: '<div class="js-load no-post">No results found</div>', error: '<a class="js-load error" href="javascript:void(0)">Xin lỗi có vẻ như đã bị lỗi!</a>'} }); /*]]>*/</script>
+      <b:includable id='postPaginationMore1'>
+        <script>/*<![CDATA[*/ !function(t,e){t.InfiniteScroll=function(n){function r(t,n){return n=n||e,n.querySelectorAll(t)}function o(t){return void 0!==t}function a(t){return"function"==typeof t}function i(t,e){t=t||{};for(var n in e)t[n]="object"==typeof e[n]?i(t[n],e[n]):e[n];return t}function s(t,e,n){return o(t)?o(e)?void(o(n)?g[t][n]=e:g[t].push(e)):g[t]:g}function d(t,e){o(e)?delete g[t][e]:g[t]=[]}function l(t,e){if(o(g[t]))for(var n in g[t])g[t][n](e)}function c(){return L.innerHTML=p.text.loading,v=!0,M?(y.classList.add(p.state.loading),l("loading",[p]),void u(M,function(t,n){y.className=x+" "+p.state.load,h=e.createElement("div"),h.innerHTML=t;var o=r("title",h),a=r(p.target.post,h),i=r(p.target.anchors+" "+p.target.anchor,h),s=r(p.target.post,H);if(o=o&&o[0]?o[0].innerHTML:"",a.length&&s.length){var d=s[s.length-1];e.title=o,d.insertAdjacentHTML("afterend",' '),h=e.createElement("div");for(var c=0,u=a.length;u>c;++c)h.appendChild(a[c]);d.insertAdjacentHTML("afterend",h.innerHTML),f(),M=i.length?i[0].href:!1,v=!1,q++,l("load",[p,t,n])}},function(t,e){y.classList.add(p.state.error),v=!1,f(1),l("error",[p,t,e])})):(y.classList.add(p.state.loaded),L.innerHTML=p.text.loaded,l("loaded",[p]))}function f(t){if(L.innerHTML="",T){h.innerHTML=p.text[t?"error":"load"];var e=h.firstChild;e.onclick=function(){return 2===p.type&&(T=!1),c(),!1},L.appendChild(e)}}var u="infinite-scroll-state-",p={target:{posts:".posts",post:".post",anchors:".anchors",anchor:".anchor"},text:{load:"%s",loading:"%s",loaded:"%s",error:"%s"},state:{load:u+"load",loading:u+"loading",loaded:u+"loaded",error:u+"error"}},g={load:[],loading:[],loaded:[],error:[]};p=i(p,n||{}),p.on=s,p.off=d;var h=null,u=function(e,n,r){if(t.XMLHttpRequest){var o=new XMLHttpRequest;o.onreadystatechange=function(){if(4===o.readyState){if(200!==o.status)return void(r&&a(r)&&r(o.responseText,o));n&&a(n)&&n(o.responseText,o)}},o.open("GET",e),o.send()}},T=1!==p.type,v=!1,H=r(p.target.posts)[0],L=r(p.target.anchors)[0],M=r(p.target.anchor,L),m=e.body,y=e.documentElement,x=y.className||"",E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=0,b=null,q=1;if(M.length){M=M[0].href,H.insertAdjacentHTML("afterbegin",' '),h=e.createElement("div"),f();var w=function(){E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=m.scrollTop||y.scrollTop,v||E>A+j||c()};w(),0!==p.type&&t.addEventListener("scroll",function(){T||(b&&t.clearTimeout(b),b=t.setTimeout(w,200))},!1)}return p}}(window,document);var infinite_scroll = new InfiniteScroll({ type: 0, target: {posts: '.blog-posts', post: '.hentry', anchors: '.blog-pager1', anchor: '.blog-pager1-older-link'}, text: {load: '<a class="js-load load-more flex aic" href="javascript:void(0)">Next <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M5.75 12.25L10.25 8l-4.5-4.25"/></g></svg></a>', loading: '<a class="flex aic"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 50 50" xml:space="preserve"><path d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"/></path></svg><span>Please Wait...</span></a>', loaded: '<div class="js-load no-post">No results found</div>', error: '<a class="js-load error" href="javascript:void(0)">Xin lỗi có vẻ như đã bị lỗi!</a>'} }); /*]]>*/</script>
       </b:includable>
       <b:includable id='multiHeader'>
         <div class='bc-2c2'>
@@ -1535,6 +1557,12 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Game", "Hist
   <img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:authorPhoto.height' expr:src='data:authorPhoto.image' expr:width='data:authorPhoto.width'/>
 </b:includable>
       <b:includable id='content'>
+      <div class='widget-content individual dropdown btn-primary user'>
+<a class='relative flex aic c-fff' href='/p/bookmark.html'><svg aria-hidden='true' height='33' preserveAspectRatio='xMidYMid meet' role='img' style='vertical-align: -0.125em;' viewBox='0 0 256 256' width='33' xmlns='http://www.w3.org/2000/svg'><path d='M233.6 195.6L192.2 41a16 16 0 0 0-19.6-11.3L141.7 38l-1 .3A16 16 0 0 0 128 32H96a15.8 15.8 0 0 0-8 2.2a15.8 15.8 0 0 0-8-2.2H48a16 16 0 0 0-16 16v160a16 16 0 0 0 16 16h32a15.8 15.8 0 0 0 8-2.2a15.8 15.8 0 0 0 8 2.2h32a16 16 0 0 0 16-16v-99.6l27.8 103.7a16 16 0 0 0 15.5 11.9a19.9 19.9 0 0 0 4.1-.5l30.9-8.3a16 16 0 0 0 11.3-19.6ZM176.7 45.2l6.3 23.1l-30.9 8.3l-6.3-23.1ZM128 48v120H96V48Zm-48 0v24H48V48Zm48 160H96v-24h32v24Zm90.2-8.3l-30.9 8.3l-6.3-23.2l31-8.3l6.2 23.2Z' fill='currentColor'/></svg>
+          <sup class='numshow'/>
+          </a>
+          <svg aria-hidden='true' height='33' preserveAspectRatio='xMidYMid meet' role='img' style='vertical-align: -0.125em;' viewBox='0 0 24 24' width='33' xmlns='http://www.w3.org/2000/svg'><path d='M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10s10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z' fill='currentColor'/></svg>
+<svg aria-hidden='true' height='33' preserveAspectRatio='xMidYMid meet' role='img' style='vertical-align: -0.125em;' viewBox='0 0 48 48' width='33' xmlns='http://www.w3.org/2000/svg'><path d='M41.5 10h-6m-8-4v8m0-4h-22m8 14h-8m16-4v8m22-4h-22m20 14h-6m-8-4v8m0-4h-22' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'/></svg></div>
   <b:comment><b:if cond='data:team'>
     <div class='widget-content team'>
       <b:include name='teamProfile'/>
@@ -1612,21 +1640,6 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Game", "Hist
   <a class='profile-link' expr:href='data:userUrl' rel='author nofollow'>
     <data:messages.viewMyCompleteProfile/>
   </a>
-</b:includable>
-    </b:widget>
-    <b:widget id='HTML2' locked='false' title='Socials' type='HTML' version='2' visible='true'>
-      <b:widget-settings>
-        <b:widget-setting name='content'><![CDATA[<a href="#" target="_blank" rel="nofollow">
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="40" height="40" preserveaspectratio="xMidYMid meet" viewbox="0 0 256 199"><path fill="#5865F2" d="M216.856 16.597A208.502 208.502 0 0 0 164.042 0c-2.275 4.113-4.933 9.645-6.766 14.046c-19.692-2.961-39.203-2.961-58.533 0c-1.832-4.4-4.55-9.933-6.846-14.046a207.809 207.809 0 0 0-52.855 16.638C5.618 67.147-3.443 116.4 1.087 164.956c22.169 16.555 43.653 26.612 64.775 33.193A161.094 161.094 0 0 0 79.735 175.3a136.413 136.413 0 0 1-21.846-10.632a108.636 108.636 0 0 0 5.356-4.237c42.122 19.702 87.89 19.702 129.51 0a131.66 131.66 0 0 0 5.355 4.237a136.07 136.07 0 0 1-21.886 10.653c4.006 8.02 8.638 15.67 13.873 22.848c21.142-6.58 42.646-16.637 64.815-33.213c5.316-56.288-9.08-105.09-38.056-148.36ZM85.474 135.095c-12.645 0-23.015-11.805-23.015-26.18s10.149-26.2 23.015-26.2c12.867 0 23.236 11.804 23.015 26.2c.02 14.375-10.148 26.18-23.015 26.18Zm85.051 0c-12.645 0-23.014-11.805-23.014-26.18s10.148-26.2 23.014-26.2c12.867 0 23.236 11.804 23.015 26.2c0 14.375-10.148 26.18-23.015 26.18Z"/></path></svg>
-</a>
-
-<a href="#" target="_blank" rel="nofollow">
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="40" height="40" preserveaspectratio="xMidYMid meet" viewbox="0 0 256 247"><path fill="#FF424D" d="M45.136 0v246.35H0V0h45.136Zm118.521 0C214.657 0 256 41.343 256 92.343s-41.343 92.343-92.343 92.343s-92.343-41.344-92.343-92.343c0-51 41.344-92.343 92.343-92.343Z"/></path></svg>
-</a>]]></b:widget-setting>
-      </b:widget-settings>
-      <b:includable id='main'>
-        <b:attr name='class' value='socials'/>
-    <data:content/>
 </b:includable>
     </b:widget>
   </b:section>
@@ -2352,7 +2365,7 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Game", "Hist
   </ul>
 </b:includable>
         </b:widget>
-        <b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive' visible='true'>
+        <b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive' visible='false'>
           <b:widget-settings>
             <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
             <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
@@ -2689,7 +2702,7 @@ mTP.Select = ["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Game", "Hist
                 <b:include name='searchForm'/>
                 <button class='submit' type='submit'><svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 512 512' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z' fill='currentColor'/></svg>Filter  <span class='count'> </span></button>
 
-                <!-- Hasil -->
+                <!-- Results -->
                 <div id='result'/>
                 
 <script>/*<![CDATA[*/
@@ -3041,19 +3054,6 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
   
     <data:content/>
  
-</b:includable>
-        </b:widget>
-        <b:widget id='Text2' locked='false' title='Changelog' type='Text' version='2' visible='true'>
-          <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<aside class="score">
-<p class="mb-05 text-1d5 fw-700 lh-1d4 my-025">Modal Box<span class="c-959 text-075 fw-400">
-<span>52%</span>progress</span>
-</p>
-<div class="progress"><span class="all-03s" style="width:52%;"></span></div>
-</aside>]]></b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main'> 
-    <data:content/>
 </b:includable>
         </b:widget>
       </b:section>
@@ -3464,7 +3464,6 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
                         <a href='/search/label/Horror'>Horror</a>
                         <a href='/search/label/War'>War</a>
                       </div>
-                      <b:include name='postPagination'/>
                     </div>
                   </div>
                   <div class='grid gtc-raf g-var hfeed'>
@@ -3472,6 +3471,10 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
                     <b:include data='post' name='thumbList'/>
                   </b:loop>
                   </div>
+            <div class='blog-pager' id='blog-pager'>
+              <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+              <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+            </div>
                 </b:if>
                 <b:if cond='data:view.isSingleItem'>
                   <b:loop index='i' values='data:posts' var='post'>
@@ -4157,12 +4160,11 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
             },
           </b:includable>
           <b:includable id='postPagination'>
-            <div class='blog-pager' id='blog-pager'>
-              <b:include cond='data:newerPageUrl' name='previousPageLink'/>
-              <b:include cond='data:olderPageUrl' name='nextPageLink'/>
-              <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
-            </div>
-          </b:includable>
+  <div class='blog-pager container' id='blog-pager'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+  </div>
+</b:includable>
           <b:includable id='postReactions'>
             <span class='byline reactions'>
               <span class='reactions-label'>
