@@ -394,7 +394,7 @@ a:hover {color: var(--link-hover);}
 .i-flex {display: inline-flex;}
 .block,header #search.block {display: block}
 .float-r,.more {float: right}
-.none, .separator,.not\[Ep\] :not([data*="Ep"],[data*="Raw"],[data*="Preview"]), .hfeed .hentry:nth-last-child(n+21),.stream #synopsis,.tabcontent {display: none}
+.none, .separator,.not\[Ep\] :not([data*="Ep"],[data*="Raw"],[data*="Preview"]), .stream #synopsis,.tabcontent {display: none}
 .oh,.r-snippetized,#main .widget {overflow: hidden}
 .ofc img {object-fit: cover}
 .wsn {white-space: nowrap}
@@ -1247,13 +1247,42 @@ body#layout:after{content:'Designed by - https://github.com/Nabeelshar/9anime';d
             callBack:function(){}
             }
           </script>
-          <script async='async'>/*<![CDATA[*/ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h3 class='heading'>Related Posts</h3>",widgetStyle:1,homePage:"http://www.jagodesain.com",numPosts:7,summaryLength:320,titleLength:"auto",thumbnailSize:200,noImage:"data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",containerId:"related-posts",newTabLink:false,moreText:"Read more",callBack:function(){}}; for(var f in relatedPostConfig){d[f]=(relatedPostConfig[f]=="undefined")?d[f]:relatedPostConfig[f]}var j=function(a){var b=m.createElement("script");b.async="async";b.rel="preload";b.src=a;k.appendChild(b)},o=function(b,a){return Math.floor(Math.random()*(a-b+1))+b},l=function(a){var p=a.length,c,b;if(p===0){return false}while(--p){c=Math.floor(Math.random()*(p+1));b=a[p];a[p]=a[c];a[c]=b}return a},e=(typeof labelArray=="object"&&labelArray.length>0)?"/-/"+l(labelArray)[0]:"",h=function(b){var c=b.feed.openSearch$totalResults.$t-d.numPosts,a=o(1,(c>0?c:1));j(d.homePage.replace(/\/$/,"")+"/feeds/posts/default/-/Anime"+e+"?alt=json-in-script&orderby=updated&start-index="+a+"&max-results="+d.numPosts+"&callback=showRelatedPost")},g=function(z){var s=document.getElementById(d.containerId),x=l(z.feed.entry),A=d.widgetStyle,c=d.widgetTitle+'<ul class="p-0 grid gtc-raf g-var lsn style-'+A+'">',b=d.newTabLink?' target="_blank"':"",y='<!-- <div class="clear"/> -->',v,t,w,r,u;if(!s){return}for(var q=0;q<d.numPosts;q++){if(q==x.length){break}t=x[q].title.$t;w=(d.titleLength!=="auto"&&d.titleLength<t.length)?t.substring(0,d.titleLength)+"&hellip;":t; r=("media$thumbnail"in x[q]&&d.thumbnailSize!==false)?x[q].media$thumbnail.url.replace(/.*?:\/\//g , "//").replace(/\/s[0-9]+(\-c)?/, "/s"+d.thumbnailSize):d.noImage;u=("summary"in x[q]&&d.summaryLength>0)?x[q].summary.$t.replace(/<br ?\/?>/g," ").replace(/<.*?>/g,"").replace(/[<>]/g,"").substring(0,d.summaryLength)+"&hellip;":"";for(var p=0,a=x[q].link.length;p<a;p++){v=(x[q].link[p].rel=="alternate")?x[q].link[p].href:"#"} if(A==2){c+='<li class="hentry play c:hover-eee"><div class="item-related"><a class="block ofc relative poster r3 oh" href="'+v+'"><img class="ar-2sx h-max w-max lazy" loading="lazy" alt="'+w+'" src="'+r+'"></a><div class="clamp oh tac mt-8"><a class="fs-md fw-400 c-aba" href="'+v+'">'+w+'</a></div></div></li>'} else{c+='<li><div class="item-related"><div class="block ofc relative poster r3 oh"><div><img class="post-thumb lazy" loading="lazy" alt="'+w+'" src="'+r+'"></div></div><div class="item-title"><a class="fs-md fw-400 c-aba" href="'+v+'">'+w+'</a></div></div></li>'} }s.innerHTML=c+="</ul>";d.callBack()};randomRelatedIndex=h;showRelatedPost=g;j(d.homePage.replace(/\/$/,"")+"/feeds/posts/default/"+e+"?alt=json-in-script&orderby=updated&max-results=0&callback=randomRelatedIndex")})(window,document,document.getElementsByTagName("head")[0]); /*]]>*/</script>
+          <script async='async'>/*
+	<![CDATA[*/ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h3 class='heading'>Related Posts</h3>",widgetStyle:1,homePage:"http://elcavz-movies.site",numPosts:7,summaryLength:320,titleLength:"auto",thumbnailSize:200,noImage:"data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",containerId:"related-posts",newTabLink:false,moreText:"Read more",callBack:function(){}}; for(var f in relatedPostConfig){d[f]=(relatedPostConfig[f]=="undefined")?d[f]:relatedPostConfig[f]}var j=function(a){var b=m.createElement("script");b.async="async";b.rel="preload";b.src=a;k.appendChild(b)},o=function(b,a){return Math.floor(Math.random()*(a-b+1))+b},l=function(a){var p=a.length,c,b;if(p===0){return false}while(--p){c=Math.floor(Math.random()*(p+1));b=a[p];a[p]=a[c];a[c]=b}return a},e=(typeof labelArray=="object"&&labelArray.length>0)?"/-/"+l(labelArray)[0]:"",h=function(b){var c=b.feed.openSearch$totalResults.$t-d.numPosts,a=o(1,(c>0?c:1));j(d.homePage.replace(/\/$/,"")+"/feeds/posts/default/-/Anime"+e+"?alt=json-in-script&orderby=updated&start-index="+a+"&max-results="+d.numPosts+"&callback=showRelatedPost")},g=function(z){var s=document.getElementById(d.containerId),x=l(z.feed.entry),A=d.widgetStyle,c=d.widgetTitle+'<ul class="p-0 grid gtc-raf g-var lsn style-'+A+'">',b=d.newTabLink?' target="_blank"':"",y='
+	<!-- <div class="clear"/> -->',v,t,w,r,u;if(!s){return}for(var q=0;q
+	<d.numPosts;q++){if(q==x.length){break}t=x[q].title.$t;w=(d.titleLength!=="auto"&&d.titleLength
+		<t.length)?t.substring(0,d.titleLength)+"&hellip;":t; r=("media$thumbnail"in x[q]&&d.thumbnailSize!==false)?x[q].media$thumbnail.url.replace(/.*?:\/\//g , "//").replace(/\/s[0-9]+(\-c)?/, "/s"+d.thumbnailSize):d.noImage;u=("summary"in x[q]&&d.summaryLength>0)?x[q].summary.$t.replace(/
+			<br ?\/?>/g," ").replace(/<.*?>/g,"").replace(/[<>]/g,"").substring(0,d.summaryLength)+"&hellip;":"";for(var p=0,a=x[q].link.length;p
+				<a;p++){v=(x[q].link[p].rel=="alternate")?x[q].link[p].href:"#"} if(A==2){c+='
+					<li class="hentry play c:hover-eee">
+						<div class="item-related">
+							<a class="block ofc relative poster r3 oh" href="'+v+'">
+								<img class="ar-2sx h-max w-max lazy" loading="lazy" alt="'+w+'" src="'+r+'">
+								</a>
+								<div class="clamp oh tac mt-8">
+									<a class="fs-md fw-400 c-aba" href="'+v+'">'+w+'</a>
+								</div>
+							</div>
+						</li>'} else{c+='
+						<li>
+							<div class="item-related">
+								<div class="block ofc relative poster r3 oh">
+									<div>
+										<img class="post-thumb lazy" loading="lazy" alt="'+w+'" src="'+r+'">
+										</div>
+									</div>
+									<div class="item-title">
+										<a class="fs-md fw-400 c-aba" href="'+v+'">'+w+'</a>
+									</div>
+								</div>
+							</li>'} }s.innerHTML=c+="</ul>";d.callBack()};randomRelatedIndex=h;showRelatedPost=g;j(d.homePage.replace(/\/$/,"")+"/feeds/posts/default/"+e+"?alt=json-in-script&orderby=updated&max-results=0&callback=randomRelatedIndex")})(window,document,document.getElementsByTagName("head")[0]); /*]]>*/
+						</script>
         </div>
       </b:includable>
       <b:includable id='postPaginationMore'>
         <script>/*<![CDATA[*/
 var noPage,currentPage,currentPageNo,postLabel,
-perPage=18,
+perPage=30,
 numPages=3,
 firstText="First",
 lastText="Last",
@@ -1391,20 +1420,14 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
   <b:section class='container' id='header' showaddelement='false'>
     <b:widget id='LinkList4' locked='true' title='Menu' type='LinkList' version='2' visible='true'>
       <b:widget-settings>
-        <b:widget-setting name='link-5'>/search/label/Completed</b:widget-setting>
-        <b:widget-setting name='link-3'>#</b:widget-setting>
-        <b:widget-setting name='link-4'>/search/label/Ongoing</b:widget-setting>
-        <b:widget-setting name='text-1'>Request</b:widget-setting>
-        <b:widget-setting name='text-0'>All</b:widget-setting>
-        <b:widget-setting name='text-3'>Update</b:widget-setting>
-        <b:widget-setting name='text-2'>Newest</b:widget-setting>
-        <b:widget-setting name='text-5'>Completed</b:widget-setting>
-        <b:widget-setting name='text-4'>Ongoing</b:widget-setting>
         <b:widget-setting name='shownum'>100</b:widget-setting>
         <b:widget-setting name='sorting'>NONE</b:widget-setting>
+        <b:widget-setting name='text-1'>Request</b:widget-setting>
         <b:widget-setting name='link-1'>#</b:widget-setting>
+        <b:widget-setting name='text-0'>All</b:widget-setting>
         <b:widget-setting name='link-2'>/#newest</b:widget-setting>
         <b:widget-setting name='link-0'>#</b:widget-setting>
+        <b:widget-setting name='text-2'>Newest</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
         <b:attr name='id' value='menu'/>
@@ -1958,22 +1981,6 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
       <b:class cond='data:skin.vars.body_background.image' name='has-image'/>
       <b:tag cond='data:view.isMultipleItems or data:view.isPost' id='sidebar' name='div'>
       <b:section cond='data:view.isPost' id='sidebar-post' showaddelement='true'>
-        <b:widget id='HTML5' locked='false' title='Movie' type='HTML' visible='true'>
-          <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<ul id="rSI" class="lsn m-0 p-0 grid gtc-r2a">
-  <script type='text/javascript'>/*<![CDATA[*/
-    const rSI={cImage:function(t){let e=t,n=e.indexOf("<img"),a=e.indexOf('src="',n),i=e.indexOf('"',a+5),c=e.substr(a+5,i-a-5);return-1!=n&&-1!=a&&-1!=i&&""!=c?c:this.noImage},compile:function(t){if("entry"in t.feed){let e="";t.feed.entry.forEach(t=>{const n=t.title.$t,a=t.link.find(t=>"alternate"==t.rel).href,i="media$thumbnail"in t?t.media$thumbnail.url.match(/\/s[0-9]{2}-(w[0-9]+-)?c/)?t.media$thumbnail.url.replace(/\/s[0-9]{2}-(w[0-9]+-)?c/,"/w400-h225-p-k-no-nu"):t.media$thumbnail.url.replace(/\=s[0-9]{2}-(w[0-9]+-)?c/,"=w400-h225-p-k-no-nu"):"content"in t&&this.cImage(t.content.$t);e+=`<li class="p-y10 grid gtc-c52"><a class="block ofc oh" href="${a}" title="${n}"><img class="ar-3:4 r2 h-auto w-max" src="${i}" alt="${n}"></a><a href="${a}" class="fs-md fw-400 c-aba clamp oh">${n}</a></li>`}),document.getElementById("rSI").innerHTML=e}},create:function(t){const e=document.createElement("script");e.src=t,document.body.appendChild(e)},getRandom:function(t){const e=Math.floor(Math.random()*(t.feed.openSearch$totalResults.$t-this.numb-1+1))+1;this.create(`/feeds/posts/default${0==this.cat?"":`/-/${this.cat}`}?alt=json-in-script&start-index=${e}&max-results=${this.numb}&callback=rSI.compile`)},noImage:"https://1.bp.blogspot.com/-BYDJ1dpFEhE/X9QnAUfeORI/AAAAAAAAHxw/OjfaqiPHjhAmCgJts39XIg7o4KR-8YtdACNcBGAsYHQ/w300-h225-p-k-no-nu/dagruel-no-image.png",run:function(t=10,e=!1){if(this.cat=e,this.numb=t,!document.getElementById("rSI"))return console.log("Error Not Function");this.create(`/feeds/posts/default${0==this.cat?"":`/-/${this.cat}`}?alt=json-in-script&max-results=0&callback=rSI.getRandom`)}};
-    rSI.run(3, '<Movie');
-  /*]]]]><![CDATA[>*/</script>
-</ul>]]></b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-        </b:widget>
         <b:widget id='PopularPosts3' locked='true' title='Trending' type='PopularPosts' version='2' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
@@ -2067,7 +2074,7 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
 </b:includable>
           <b:includable id='genrePost'>
         <b:with value='[&quot;Action&quot;,&quot;Adventure&quot;,&quot;Cars&quot;,&quot;Comedy&quot;,&quot;Dementia&quot;,&quot;Demons&quot;,&quot;Drama&quot;,&quot;Ecchi&quot;,&quot;Fantasy&quot;,&quot;Game&quot;,&quot;Harem&quot;,&quot;Historical&quot;,&quot;Horror&quot;,&quot;Josei&quot;,&quot;Kids&quot;,&quot;Magic&quot;,&quot;Martial Arts&quot;,&quot;Mecha&quot;,&quot;Military&quot;,&quot;Music&quot;]' var='genre1'>
-          <b:with value='[&quot;Mystery&quot;,&quot;Parody&quot;,&quot;Police&quot;,&quot;Psychological&quot;,&quot;Romance&quot;,&quot;Samurai&quot;,&quot;School&quot;,&quot;Sci-Fi&quot;,&quot;Seinen&quot;,&quot;Shoujo&quot;,&quot;Shoujo Ai&quot;,&quot;Shounen&quot;,&quot;Shounen Ai&quot;,&quot;Slice of Life&quot;,&quot;Space&quot;,&quot;Sports&quot;,&quot;Super Power&quot;,&quot;Supernatural&quot;,&quot;Thriller&quot;,&quot;Vampire&quot;]' var='genre2'>
+          <b:with value='[&quot;Mystery&quot;,&quot;Parody&quot;,&quot;Police&quot;,&quot;Psychological&quot;,&quot;Romance&quot;,&quot;Samurai&quot;,&quot;School&quot;,&quot;Sci-Fi&quot;,&quot;Seinen&quot;,&quot;Shoujo&quot;,&quot;Shoujo Ai&quot;,&quot;Shounen&quot;,&quot;Shounen Ai&quot;,&quot;Slice of Life&quot;,&quot;Space&quot;,&quot;Sports&quot;,&quot;Superhero&quot;,&quot;Supernatural&quot;,&quot;Thriller&quot;,&quot;Vampire&quot;]' var='genre2'>
             <b:loop index='i' values='data:post.labels' var='label'>
               <b:if cond='data:label.name in data:genre1 or data:label.name in data:genre2'>
                 <a class='c-666' expr:href='data:label.url' expr:title='data:label.name'><data:label.name/></a>
@@ -2284,6 +2291,548 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
         </b:widget>
       </b:section>
       <b:section cond='data:view.isMultipleItems and !data:view.isHomepage' id='sidebar-index' showaddelement='true'>
+        <b:widget id='BlogSearch3' locked='true' title='Filter' type='BlogSearch' version='2' visible='true'>
+          <b:includable id='main'>
+		<b:include name='widget-title'/>
+		<b:include name='content'/>
+	</b:includable>
+          <b:includable id='content'>
+		<section class='quickfilter' role='search'>
+			<div class='filters'>
+				<div class='opt'>
+					<!-- List Label -->
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Genre' name='genre' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Genre'> Genre 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4 gtc-fm100'>
+							<li>
+								<input class='genre' id='Action' type='checkbox' value='Action'/>
+								<label for='Action'>Action</label>
+							</li>
+							<li>
+								<input class='genre' id='Adventure' type='checkbox' value='Adventure'/>
+								<label for='Adventure'>Adventure</label>
+							</li>
+							<li>
+								<input class='genre' id='Comedy' type='checkbox' value='Comedy'/>
+								<label for='Comedy'>Comedy</label>
+							</li>
+							<li>
+								<input class='genre' id='Drama' type='checkbox' value='Drama'/>
+								<label for='Drama'>Drama</label>
+							</li>
+							<li>
+								<input class='genre' id='Fantasy' type='checkbox' value='Fantasy'/>
+								<label for='Fantasy'>Fantasy</label>
+							</li>
+							<li>
+								<input class='genre' id='Game' type='checkbox' value='Game'/>
+								<label for='Game'>Game</label>
+							</li>
+							<li>
+								<input class='genre' id='Historical' type='checkbox' value='Historical'/>
+								<label for='Historical'>Historical</label>
+							</li>
+							<li>
+								<input class='genre' id='Horror' type='checkbox' value='Horror'/>
+								<label for='Horror'>Horror</label>
+							</li>
+							<li>
+								<input class='genre' id='Military' type='checkbox' value='Military'/>
+								<label for='Military'>Military</label>
+							</li>
+							<li>
+								<input class='genre' id='Music' type='checkbox' value='Music'/>
+								<label for='Music'>Music</label>
+							</li>
+							<li>
+								<input class='genre' id='Mystery' type='checkbox' value='Mystery'/>
+								<label for='Mystery'>Mystery</label>
+							</li>
+							<li>
+								<input class='genre' id='Psychological' type='checkbox' value='Psychological'/>
+								<label for='Psychological'>Psychological</label>
+							</li>
+							<li>
+								<input class='genre' id='Romance' type='checkbox' value='Romance'/>
+								<label for='Romance'>Romance</label>
+							</li>
+							<li>
+								<input class='genre' id='Sci-Fi' type='checkbox' value='Sci-Fi'/>
+								<label for='Sci-Fi'>Sci-Fi</label>
+							</li>
+							<li>
+								<input class='genre' id='Space' type='checkbox' value='Space'/>
+								<label for='Space'>Space</label>
+							</li>
+							<li>
+								<input class='genre' id='Sports' type='checkbox' value='Sports'/>
+								<label for='Sports'>Sports</label>
+							</li>
+							<li>
+								<input class='genre' id='Superhero' type='checkbox' value='Superhero'/>
+								<label for='Superhero'>Superhero</label>
+							</li>
+							<li>
+								<input class='genre' id='Thriller' type='checkbox' value='Thriller'/>
+								<label for='Thriller'>Thriller</label>
+							</li>
+							<li>
+								<input class='genre' id='War' type='checkbox' value='War'/>
+								<label for='War'>War</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Status' name='status' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Status'> Status 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Ongoing' type='checkbox' value='Ongoing'/>
+								<label for='Ongoing'>Ongoing</label>
+							</li>
+							<li>
+								<input class='genre' id='Completed' type='checkbox' value='Completed'/>
+								<label for='Completed'>Completed</label>
+							</li>
+							<li>
+								<input class='genre' id='Dropped' type='checkbox' value='Dropped'/>
+								<label for='Dropped'>Dropped</label>
+							</li>
+							<li>
+								<input class='genre' id='Upcoming' type='checkbox' value='Upcoming'/>
+								<label for='Upcoming'>Upcoming</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Type' name='type' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Type'> Type 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Movie' type='checkbox' value='Movie'/>
+								<label for='Movie'>Movie</label>
+							</li>
+							<li>
+								<input class='genre' id='TV' type='checkbox' value='TV'/>
+								<label for='TV'>TV</label>
+							</li>
+							<li>
+								<input class='genre' id='OVA' type='checkbox' value='OVA'/>
+								<label for='OVA'>OVA</label>
+							</li>
+							<li>
+								<input class='genre' id='ONA' type='checkbox' value='ONA'/>
+								<label for='ONA'>ONA</label>
+							</li>
+							<li>
+								<input class='genre' id='Special' type='checkbox' value='Special'/>
+								<label for='Special'>Special</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Lang' name='lang' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Lang'> Language 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Sub' type='checkbox' value='Sub'/>
+								<label for='Sub'>Sub</label>
+							</li>
+							<li>
+								<input class='genre' id='Dub' type='checkbox' value='Dub'/>
+								<label for='Dub'>Dub</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Country' name='country' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Country'> Country 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Japan' type='checkbox' value='Japan'/>
+								<label for='Japan'>Japan</label>
+							</li>
+							<li>
+								<input class='genre' id='Chinese' type='checkbox' value='Chinese'/>
+								<label for='Chinese'>Chinese</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Quality' name='Quality' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Quality'> Quality 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Webrip' type='checkbox' value='Webrip'/>
+								<label for='Webrip'>Webrip</label>
+							</li>
+							<li>
+								<input class='genre' id='BD' type='checkbox' value='BD'/>
+								<label for='BD'>BD</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<b:include name='searchForm'/>
+				<button class='submit' type='submit'>
+					<svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 512 512' width='1em' xmlns='http://www.w3.org/2000/svg'>
+						<path d='M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z' fill='currentColor'/>
+					</svg>Filter  
+					<span class='count'/>
+				</button>
+				<!-- Results -->
+				<div id='result'/>
+				<script>/*
+					<![CDATA[*/
+var num = 15;
+var newtab = false;
+$('.submit').click(function(){
+var validator = document.getElementsByClassName('genre');
+var o = [];
+for(var i=0;i<validator.length;i++){
+   if(validator[i].checked){
+    o.push(validator[i].value)
+	}
+}
+window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.join('+') + '?&max-results=' + num, newtab == true ? '_blank' : '_self');
+});
+/*]]>*/
+				</script>
+			</div>
+		</section>
+	</b:includable>
+          <b:includable id='searchForm'>
+		<form expr:action='data:blog.searchUrl'>
+			<b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+			<b:include name='urlParamsAsFormInput'/>
+			<div class='searchf filter'>
+				<input autocomplete='off' expr:aria-label='data:messages.searchThisBlog' expr:placeholder='data:messages.searchThisBlog' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'/>
+			</div>
+			<b:include name='searchSubmit'/>
+		</form>
+	</b:includable>
+          <b:includable id='searchSubmit'/>
+        </b:widget>
+        <b:widget id='PopularPosts4' locked='true' title='Trending' type='PopularPosts' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
+            <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+            <b:widget-setting name='showSnippets'>true</b:widget-setting>
+            <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main' var='this'>
+            <section class='top'>
+              <b:include name='widget-title'/>
+              <div class='body'>              
+                <b:include name='snippetedPosts'/>
+              </div>
+            </section>
+          </b:includable>
+          <b:includable id='blogThisShare'>
+            <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' var='onclick'>
+              <b:include name='platformShare'/>
+            </b:with>
+          </b:includable>
+          <b:includable id='bylineByName' var='byline'>
+            <b:switch var='data:byline.name'>
+              <b:case value='share'/>
+              <b:include cond='data:post.shareUrl' name='postShareButtons'/>
+              <b:case value='comments'/>
+              <b:include cond='data:post.allowComments' name='postCommentsLink'/>
+              <b:case value='location'/>
+              <b:include cond='data:post.location' name='postLocation'/>
+              <b:case value='timestamp'/>
+              <b:include cond='not data:view.isPage' name='postTimestamp'/>
+              <b:case value='author'/>
+              <b:include name='postAuthor'/>
+              <b:case value='labels'/>
+              <b:include cond='data:post.labels' name='postLabels'/>
+              <b:case value='icons'/>
+              <b:include cond='data:post.emailPostUrl' name='emailPostIcon'/>
+              <b:case value='reactions'/>
+              <b:include cond='data:post.reactionsUrl' name='postReactions'/>
+            </b:switch>
+          </b:includable>
+          <b:includable id='bylineRegion' var='regionItems'>
+            <b:loop values='data:regionItems' var='byline'>
+              <b:include data='byline' name='bylineByName'/>
+            </b:loop>
+          </b:includable>
+          <b:includable id='commentsLink'>
+            <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+              <b:if cond='data:post.numberOfComments &gt; 0'>
+                <b:message name='messages.numberOfComments'>
+                  <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+                </b:message>
+                <b:else/>
+                <data:messages.postAComment/>
+              </b:if>
+            </a>
+          </b:includable>
+          <b:includable id='commentsLinkIframe'>
+            <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+          </b:includable>
+          <b:includable id='emailPostIcon'>
+            <span class='byline post-icons'>
+              <!-- email post links -->
+              <span class='item-action'>
+                <a expr:href='data:post.emailPostUrl' expr:title='data:messages.emailPost'>
+                  <b:include data='{ iconClass: &quot;touch-icon sharing-icon&quot; }' name='emailIcon'/>
+                </a>
+              </span>
+            </span>
+          </b:includable>
+          <b:includable id='facebookShare'>
+            <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' var='onclick'>
+              <b:include name='platformShare'/>
+            </b:with>
+          </b:includable>
+          <b:includable id='footerBylines'>
+            <b:if cond='data:widgets.Blog.first.footerBylines'>
+              <b:loop index='i' values='data:widgets.Blog.first.footerBylines' var='region'>
+                <b:if cond='not data:region.items.empty'>
+                  <div expr:class='&quot;post-footer-line post-footer-line-&quot; + (data:i + 1)'>
+                    <b:with value='&quot;footer-&quot; + (data:i + 1)' var='regionName'>
+                      <b:include data='region.items' name='bylineRegion'/>
+                    </b:with>
+                  </div>
+                </b:if>
+              </b:loop>
+            </b:if>
+          </b:includable>
+          <b:includable id='googlePlusShare'>
+            <div class='goog-inline-block google-plus-share-container'>
+              <g:plusone annotation='inline' expr:href='data:originalUrl.canonical.http' size='medium' source='blogger:blog:plusone'/>
+            </div>
+          </b:includable>
+          <b:includable id='headerByline'>
+            <b:if cond='data:widgets.Blog.first.headerByline'>
+              <div class='post-header'>
+                <div class='post-header-line-1'>
+                  <b:with value='&quot;header-1&quot;' var='regionName'>
+                    <b:include data='data:widgets.Blog.first.headerByline.items' name='bylineRegion'/>
+                  </b:with>
+                </div>
+              </div>
+            </b:if>
+          </b:includable>
+          <b:includable id='linkShare'>
+            <b:with value='&quot;window.prompt(\&quot;Copy to clipboard: Ctrl+C, Enter\&quot;, \&quot;&quot; + data:originalUrl + &quot;\&quot;); return false;&quot;' var='onclick'>
+              <b:include name='platformShare'/>
+            </b:with>
+          </b:includable>
+          <b:includable id='otherSharingButton'>
+            <span class='sharing-platform-button sharing-element-other' expr:aria-label='data:messages.shareToOtherApps.escaped' expr:data-url='data:originalUrl' expr:title='data:messages.shareToOtherApps.escaped' role='menuitem' tabindex='-1'>
+              <b:with value='{key: &quot;sharingOther&quot;}' var='platform'>
+                <b:include name='sharingPlatformIcon'/>
+              </b:with>
+              <span class='platform-sharing-text'><data:messages.shareOtherApps.escaped/></span>
+            </span>
+          </b:includable>
+          <b:includable id='platformShare'>
+            <a expr:class='&quot;goog-inline-block sharing-&quot; + data:platform.key' expr:data-url='data:originalUrl' expr:href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:onclick='data:onclick ? data:onclick : &quot;&quot;' expr:title='data:platform.shareMessage' target='_blank'>
+              <span class='share-button-link-text'>
+                <data:platform.shareMessage/>
+              </span>
+            </a>
+          </b:includable>
+          <b:includable id='postAuthor'>
+            <span class='byline post-author vcard'>
+              <span class='post-author-label'>
+                <data:byline.label/>
+              </span>
+              <span class='fn'>
+                <b:if cond='data:post.author.profileUrl'>
+                  <meta expr:content='data:post.author.profileUrl'/>
+                  <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+                    <span><data:post.author.name/></span>
+                  </a>
+                  <b:else/>
+                  <span><data:post.author.name/></span>
+                </b:if>
+              </span>
+            </span>
+          </b:includable>
+          <b:includable id='postCommentsLink'>
+            <span class='byline post-comment-link container'>
+              <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+            </span>
+          </b:includable>
+          <b:includable id='postJumpLink' var='post'>
+            <div class='jump-link flat-button'>
+              <a expr:href='data:post.url fragment &quot;more&quot;' expr:title='data:post.title'>
+                <b:eval expr='data:blog.jumpLinkMessage'/>
+              </a>
+            </div>
+          </b:includable>
+          <b:includable id='postLabels'>
+            <span class='byline post-labels'>
+              <span class='byline-label'><data:byline.label/></span>
+              <b:loop index='i' values='data:post.labels' var='label'>
+                <a expr:href='data:label.url' rel='tag'>
+                  <data:label.name/>
+                </a>
+              </b:loop>
+            </span>
+          </b:includable>
+          <b:includable id='postLocation'>
+            <span class='byline post-location'>
+              <data:byline.label/>
+              <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+            </span>
+          </b:includable>
+          <b:includable id='postReactions'>
+            <span class='byline reactions'>
+              <span class='reactions-label'>
+                <data:byline.label/>
+              </span>
+              <iframe allowtransparency='true' class='reactions-iframe' expr:src='data:post.reactionsUrl' frameborder='0' name='reactions' scrolling='no'/>
+            </span>
+          </b:includable>
+          <b:includable id='postShareButtons'>
+            <div class='byline post-share-buttons goog-inline-block'>
+              <b:with value='data:sharingId ?: ((data:widget.instanceId ?: &quot;sharing&quot;) + &quot;-&quot; + (data:regionName ?: &quot;byline&quot;) + &quot;-&quot; + data:post.id)' var='sharingId'>
+                <!-- Note: 'sharingButtons' includable is from the default Sharing widget markup. -->
+                <b:include data='{                                                sharingId: data:sharingId,                                                originalUrl: data:post.url,                                                platforms: data:this.sharing.platforms,                                                shareUrl: data:post.shareUrl,                                                shareTitle: data:post.title,                                              }' name='sharingButtons'/>
+              </b:with>
+            </div>
+          </b:includable>
+          <b:includable id='postTimestamp'>
+            <span class='byline post-timestamp'>
+              <data:byline.label/>
+              <b:if cond='data:post.url'>
+                <meta expr:content='data:post.url.canonical'/>
+                <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
+                  <time class='published' expr:datetime='data:post.date.iso8601' expr:title='data:post.date.iso8601'>
+                    <data:post.date/>
+                  </time>
+                </a>
+              </b:if>
+            </span>
+          </b:includable>
+          <b:includable id='sharingButton'>
+            <span expr:aria-label='data:platform.shareMessage' expr:class='&quot;sharing-platform-button sharing-element-&quot; + data:platform.key' expr:data-href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:data-url='data:originalUrl' expr:title='data:platform.shareMessage' role='menuitem' tabindex='-1'>
+              <b:include name='sharingPlatformIcon'/>
+              <span class='platform-sharing-text'><data:platform.name/></span>
+            </span>
+          </b:includable>
+          <b:includable id='sharingButtonContent'>
+            <div class='flat-icon-button ripple'>
+              <b:include name='shareIcon'/>
+            </div>
+          </b:includable>
+          <b:includable id='sharingButtons'>
+            <div class='sharing' expr:aria-owns='&quot;sharing-popup-&quot; + data:sharingId' expr:data-title='data:shareTitle'>
+              <button class='sharing-button touch-icon-button' expr:aria-controls='&quot;sharing-popup-&quot; + data:sharingId' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-button-&quot; + data:sharingId' role='button'>
+                <b:include name='sharingButtonContent'/>
+              </button>
+              <b:include name='sharingButtonsMenu'/>
+            </div>
+          </b:includable>
+          <b:includable id='sharingButtonsMenu'>
+            <div class='share-buttons-container'>
+              <ul aria-hidden='true' class='share-buttons hidden' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-popup-&quot; + data:sharingId' role='menu'>
+                <b:loop values='(data:platforms ?: data:blog.sharing.platforms) filter (p =&gt; p.key not in {&quot;blogThis&quot;})' var='platform'>
+                  <li>
+                    <b:include name='sharingButton'/>
+                  </li>
+                </b:loop>
+                <li aria-hidden='true' class='hidden'>
+                  <b:include name='otherSharingButton'/>
+                </li>
+              </ul>
+            </div>
+          </b:includable>
+          <b:includable id='sharingPlatformIcon'>
+            <b:include data='{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }' expr:name='data:platform.key + &quot;Icon&quot;'/>
+          </b:includable>
+          <b:includable id='snippetedPostByline'>
+            <b:with value='(data:widgets first (w =&gt; w.type == &quot;Blog&quot;)).allBylineItems' var='blogBylines'>
+              <div class='item-byline'>
+                <b:with value='data:blogBylines first (i =&gt; i.name == &quot;author&quot;)' var='byline'>
+                  <b:include cond='data:byline and data:this.postDisplay.showAuthor' data='post' name='postAuthor'/>
+                </b:with>
+                <b:with value='data:blogBylines first (i =&gt; i.name == &quot;timestamp&quot;)' var='byline'>
+                  <b:include cond='data:byline and data:this.postDisplay.showDate' data='post' name='postTimestamp'/>
+                </b:with>
+              </div>
+            </b:with>
+          </b:includable>
+          <b:includable id='snippetedPostContent'>
+			<b:if cond='data:i == 0'>
+            <b:if cond='data:post.featuredImage'>
+              <style>
+             .top1 {background-image:url(<b:eval expr='resizeImage(data:post.featuredImage, 800, &quot;1:1&quot;).cssEscaped'/>);}
+              </style>
+            </b:if>
+            </b:if>
+            <div class='post-content'>
+              <div class='rank'>
+                <b:eval expr='data:num'/>
+              </div>
+              <div class='anime'>
+              <div class='thumb'>
+                <b:include cond='data:this.postDisplay.showFeaturedImage and data:post.featuredImage' name='snippetedPostThumbnail'/>
+            
+          </div>
+                <div class='info'>
+            <div class='name clamp oh'>
+              <b:include cond='data:this.postDisplay.showTitle' name='snippetedPostTitle'/>
+            </div>
+                  <div class='meta flex'>
+                    <span class='flex aic'><svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg'><g fill='none'><path d='M2 8.4A5.4 5.4 0 0 1 7.5 3A5.991 5.991 0 0 1 12 5a5.991 5.991 0 0 1 4.5-2A5.4 5.4 0 0 1 22 8.4c0 5.356-6.379 9.4-10 12.6C8.387 17.773 2 13.76 2 8.4z' fill='currentColor'/></g></svg> <data:post.numberOfComments/></span>
+                    <span class='not[Ep]'>
+              <b:loop index='i' values='data:post.labels' var='label'>
+                <span expr:data='data:label.name'>
+                  <data:label.name/>
+                </span>
+              </b:loop>
+            </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </b:includable>
+          <b:includable id='snippetedPostThumbnail'>
+
+            <div class='tooltipstered'>
+              <a expr:href='data:post.url'>
+                <b:include data='{                         image: data:post.featuredImage,                         imageSizes: [380, 500],                         imageRatio: &quot;1:2&quot;,                         sourceSizes: &quot;500px&quot;                        }' name='responsiveImage'/>
+              </a>
+            </div>
+          </b:includable>
+          <b:includable id='snippetedPostTitle'>
+            <b:if cond='data:post.title != &quot;&quot;'>
+              <a expr:href='data:post.url'><data:post.title/></a>
+            </b:if>
+          </b:includable>
+          <b:includable id='snippetedPosts'>
+            <ul role='feed'>
+              <!-- Don't render the post that we're currently already looking at. -->
+              <b:loop index='i' values='data:posts filter (p =&gt; p.id != data:view.postId)' var='post'>
+                <b:with value='data:i + 1' var='num'>
+                <li expr:class='&quot;top&quot; + data:num' role='article'>
+                  <b:include name='snippetedPostContent'/>
+                </li>
+                </b:with>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
         <b:widget id='Label1' locked='false' title='Labels' type='Label' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
@@ -2433,275 +2982,210 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
       <b:section cond='data:view.isHomepage' id='sidebar-home' showaddelement='true'>
         <b:widget id='BlogSearch1' locked='true' title='Filter' type='BlogSearch' version='2' visible='true'>
           <b:includable id='main'>
-            <b:include name='widget-title'/>
-            <b:include name='content'/>
-          </b:includable>
+		<b:include name='widget-title'/>
+		<b:include name='content'/>
+	</b:includable>
           <b:includable id='content'>
-            <section class='quickfilter' role='search'>
-              <div class='filters'>
-                <div class='opt'>
-                  <!-- List Label -->
-                  <div class='dropdown filter'>
-                    <input class='hidden chk' id='Genre' name='genre' type='checkbox'/>
-                    <label class='dropdown-toggle' data-toggle='dropdown' for='Genre'> Genre <span class='value' data-label-placement='true'>All</span> </label>
-                    <ul class='dropdown-menu lg c4 gtc-fm100'>
-                      <li>
-                        <input class='genre' id='Action' type='checkbox' value='Action'/>
-                        <label for='Action'>Action</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Adventurer' type='checkbox' value='Adventurer'/>
-                        <label for='Adventurer'>Adventurer</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Comedy' type='checkbox' value='Comedy'/>
-                        <label for='Comedy'>Comedy</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Dementia' type='checkbox' value='Dementia'/>
-                        <label for='Dementia'>Dementia</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Demons' type='checkbox' value='Demons'/>
-                        <label for='Demons'>Demons</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Drama' type='checkbox' value='Drama'/>
-                        <label for='Drama'>Drama</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Ecchi' type='checkbox' value='Ecchi'/>
-                        <label for='Ecchi'>Ecchi</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Fantasy' type='checkbox' value='Fantasy'/>
-                        <label for='Fantasy'>Fantasy</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Game' type='checkbox' value='Game'/>
-                        <label for='Game'>Game</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Harem' type='checkbox' value='Harem'/>
-                        <label for='Harem'>Harem</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Historical' type='checkbox' value='Historical'/>
-                        <label for='Historical'>Historical</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Horror' type='checkbox' value='Horror'/>
-                        <label for='Horror'>Horror</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Josei' type='checkbox' value='Josei'/>
-                        <label for='Josei'>Josei</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Magic' type='checkbox' value='Magic'/>
-                        <label for='Magic'>Magic</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Martial Arts' type='checkbox' value='Martial Arts'/>
-                        <label for='Martial Arts'>Martial Arts</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Mecha' type='checkbox' value='Mecha'/>
-                        <label for='Mecha'>Mecha</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Military' type='checkbox' value='Military'/>
-                        <label for='Military'>Military</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Music' type='checkbox' value='Music'/>
-                        <label for='Music'>Music</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Mystery' type='checkbox' value='Mystery'/>
-                        <label for='Mystery'>Mystery</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Parody' type='checkbox' value='Parody'/>
-                        <label for='Parody'>Parody</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Police' type='checkbox' value='Police'/>
-                        <label for='Police'>Police</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Psychological' type='checkbox' value='Psychological'/>
-                        <label for='Psychological'>Psychological</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Romance' type='checkbox' value='Romance'/>
-                        <label for='Romance'>Romance</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Samurai' type='checkbox' value='Samurai'/>
-                        <label for='Samurai'>Samurai</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='School' type='checkbox' value='School'/>
-                        <label for='School'>School</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Sci-Fi' type='checkbox' value='Sci-Fi'/>
-                        <label for='Sci-Fi'>Sci-Fi</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Seinen' type='checkbox' value='Seinen'/>
-                        <label for='Seinen'>Seinen</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Shoujo' type='checkbox' value='Shoujo'/>
-                        <label for='Shoujo'>Shoujo</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Shoujo Ai' type='checkbox' value='Shoujo Ai'/>
-                        <label for='Shoujo Ai'>Shoujo Ai</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Shounen' type='checkbox' value='Shounen'/>
-                        <label for='Shounen'>Shounen</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Slice of Life' type='checkbox' value='Slice of Life'/>
-                        <label for='Slice of Life'>Slice of Life</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Space' type='checkbox' value='Space'/>
-                        <label for='Space'>Space</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Sports' type='checkbox' value='Sports'/>
-                        <label for='Sports'>Sports</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Super Power' type='checkbox' value='Super Power'/>
-                        <label for='Super Power'>Super Power</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Supernatural' type='checkbox' value='Supernatural'/>
-                        <label for='Supernatural'>Supernatural</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Thriller' type='checkbox' value='Thriller'/>
-                        <label for='Thriller'>Thriller</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Vampire' type='checkbox' value='Vampire'/>
-                        <label for='Vampire'>Vampire</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Work Life' type='checkbox' value='Work Life'/>
-                        <label for='Work Life'>Work Life</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Yuri' type='checkbox' value='Yuri'/>
-                        <label for='Yuri'>Yuri</label>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='dropdown filter'>
-                    <input class='hidden chk' id='Status' name='status' type='checkbox'/>
-                    <label class='dropdown-toggle' data-toggle='dropdown' for='Status'> Status <span class='value' data-label-placement='true'>All</span> </label>
-                    <ul class='dropdown-menu lg c4'>
-                      <li>
-                        <input class='genre' id='Ongoing' type='checkbox' value='Ongoing'/>
-                        <label for='Ongoing'>Ongoing</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Completed' type='checkbox' value='Completed'/>
-                        <label for='Completed'>Completed</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Dropped' type='checkbox' value='Dropped'/>
-                        <label for='Dropped'>Dropped</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Upcoming' type='checkbox' value='Upcoming'/>
-                        <label for='Upcoming'>Upcoming</label>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='dropdown filter'>
-                    <input class='hidden chk' id='Type' name='type' type='checkbox'/>
-                    <label class='dropdown-toggle' data-toggle='dropdown' for='Type'> Type <span class='value' data-label-placement='true'>All</span> </label>
-                    <ul class='dropdown-menu lg c4'>
-                      <li>
-                        <input class='genre' id='Movie' type='checkbox' value='Movie'/>
-                        <label for='Movie'>Movie</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='TV' type='checkbox' value='TV'/>
-                        <label for='TV'>TV</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='OVA' type='checkbox' value='OVA'/>
-                        <label for='OVA'>OVA</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='ONA' type='checkbox' value='ONA'/>
-                        <label for='ONA'>ONA</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Special' type='checkbox' value='Special'/>
-                        <label for='Special'>Special</label>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='dropdown filter'>
-                    <input class='hidden chk' id='Lang' name='lang' type='checkbox'/>
-                    <label class='dropdown-toggle' data-toggle='dropdown' for='Lang'> Language <span class='value' data-label-placement='true'>All</span> </label>
-                    <ul class='dropdown-menu lg c4'>
-                      <li>
-                        <input class='genre' id='Sub' type='checkbox' value='Sub'/>
-                        <label for='Sub'>Sub</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Dub' type='checkbox' value='Dub'/>
-                        <label for='Dub'>Dub</label>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='dropdown filter'>
-                    <input class='hidden chk' id='Country' name='country' type='checkbox'/>
-                    <label class='dropdown-toggle' data-toggle='dropdown' for='Country'> Country <span class='value' data-label-placement='true'>All</span> </label>
-                    <ul class='dropdown-menu lg c4'>
-                      <li>
-                        <input class='genre' id='Japan' type='checkbox' value='Japan'/>
-                        <label for='Japan'>Japan</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='Chinese' type='checkbox' value='Chinese'/>
-                        <label for='Chinese'>Chinese</label>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class='dropdown filter'>
-                    <input class='hidden chk' id='Quality' name='Quality' type='checkbox'/>
-                    <label class='dropdown-toggle' data-toggle='dropdown' for='Quality'> Quality <span class='value' data-label-placement='true'>All</span> </label>
-                    <ul class='dropdown-menu lg c4'>
-                      <li>
-                        <input class='genre' id='Webrip' type='checkbox' value='Webrip'/>
-                        <label for='Webrip'>Webrip</label>
-                      </li>
-                      <li>
-                        <input class='genre' id='BD' type='checkbox' value='BD'/>
-                        <label for='BD'>BD</label>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <b:include name='searchForm'/>
-                <button class='submit' type='submit'><svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 512 512' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z' fill='currentColor'/></svg>Filter  <span class='count'> </span></button>
-
-                <!-- Results -->
-                <div id='result'/>
-                
-<script>/*<![CDATA[*/
+		<section class='quickfilter' role='search'>
+			<div class='filters'>
+				<div class='opt'>
+					<!-- List Label -->
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Genre' name='genre' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Genre'> Genre 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4 gtc-fm100'>
+							<li>
+								<input class='genre' id='Action' type='checkbox' value='Action'/>
+								<label for='Action'>Action</label>
+							</li>
+							<li>
+								<input class='genre' id='Adventure' type='checkbox' value='Adventure'/>
+								<label for='Adventure'>Adventure</label>
+							</li>
+							<li>
+								<input class='genre' id='Comedy' type='checkbox' value='Comedy'/>
+								<label for='Comedy'>Comedy</label>
+							</li>
+							<li>
+								<input class='genre' id='Drama' type='checkbox' value='Drama'/>
+								<label for='Drama'>Drama</label>
+							</li>
+							<li>
+								<input class='genre' id='Fantasy' type='checkbox' value='Fantasy'/>
+								<label for='Fantasy'>Fantasy</label>
+							</li>
+							<li>
+								<input class='genre' id='Game' type='checkbox' value='Game'/>
+								<label for='Game'>Game</label>
+							</li>
+							<li>
+								<input class='genre' id='Historical' type='checkbox' value='Historical'/>
+								<label for='Historical'>Historical</label>
+							</li>
+							<li>
+								<input class='genre' id='Horror' type='checkbox' value='Horror'/>
+								<label for='Horror'>Horror</label>
+							</li>
+							<li>
+								<input class='genre' id='Military' type='checkbox' value='Military'/>
+								<label for='Military'>Military</label>
+							</li>
+							<li>
+								<input class='genre' id='Music' type='checkbox' value='Music'/>
+								<label for='Music'>Music</label>
+							</li>
+							<li>
+								<input class='genre' id='Mystery' type='checkbox' value='Mystery'/>
+								<label for='Mystery'>Mystery</label>
+							</li>
+							<li>
+								<input class='genre' id='Psychological' type='checkbox' value='Psychological'/>
+								<label for='Psychological'>Psychological</label>
+							</li>
+							<li>
+								<input class='genre' id='Romance' type='checkbox' value='Romance'/>
+								<label for='Romance'>Romance</label>
+							</li>
+							<li>
+								<input class='genre' id='Sci-Fi' type='checkbox' value='Sci-Fi'/>
+								<label for='Sci-Fi'>Sci-Fi</label>
+							</li>
+							<li>
+								<input class='genre' id='Space' type='checkbox' value='Space'/>
+								<label for='Space'>Space</label>
+							</li>
+							<li>
+								<input class='genre' id='Sports' type='checkbox' value='Sports'/>
+								<label for='Sports'>Sports</label>
+							</li>
+							<li>
+								<input class='genre' id='Superhero' type='checkbox' value='Superhero'/>
+								<label for='Superhero'>Superhero</label>
+							</li>
+							<li>
+								<input class='genre' id='Thriller' type='checkbox' value='Thriller'/>
+								<label for='Thriller'>Thriller</label>
+							</li>
+							<li>
+								<input class='genre' id='War' type='checkbox' value='War'/>
+								<label for='War'>War</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Status' name='status' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Status'> Status 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Ongoing' type='checkbox' value='Ongoing'/>
+								<label for='Ongoing'>Ongoing</label>
+							</li>
+							<li>
+								<input class='genre' id='Completed' type='checkbox' value='Completed'/>
+								<label for='Completed'>Completed</label>
+							</li>
+							<li>
+								<input class='genre' id='Dropped' type='checkbox' value='Dropped'/>
+								<label for='Dropped'>Dropped</label>
+							</li>
+							<li>
+								<input class='genre' id='Upcoming' type='checkbox' value='Upcoming'/>
+								<label for='Upcoming'>Upcoming</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Type' name='type' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Type'> Type 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Movie' type='checkbox' value='Movie'/>
+								<label for='Movie'>Movie</label>
+							</li>
+							<li>
+								<input class='genre' id='TV' type='checkbox' value='TV'/>
+								<label for='TV'>TV</label>
+							</li>
+							<li>
+								<input class='genre' id='OVA' type='checkbox' value='OVA'/>
+								<label for='OVA'>OVA</label>
+							</li>
+							<li>
+								<input class='genre' id='ONA' type='checkbox' value='ONA'/>
+								<label for='ONA'>ONA</label>
+							</li>
+							<li>
+								<input class='genre' id='Special' type='checkbox' value='Special'/>
+								<label for='Special'>Special</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Lang' name='lang' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Lang'> Language 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Sub' type='checkbox' value='Sub'/>
+								<label for='Sub'>Sub</label>
+							</li>
+							<li>
+								<input class='genre' id='Dub' type='checkbox' value='Dub'/>
+								<label for='Dub'>Dub</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Country' name='country' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Country'> Country 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Japan' type='checkbox' value='Japan'/>
+								<label for='Japan'>Japan</label>
+							</li>
+							<li>
+								<input class='genre' id='Chinese' type='checkbox' value='Chinese'/>
+								<label for='Chinese'>Chinese</label>
+							</li>
+						</ul>
+					</div>
+					<div class='dropdown filter'>
+						<input class='hidden chk' id='Quality' name='Quality' type='checkbox'/>
+						<label class='dropdown-toggle' data-toggle='dropdown' for='Quality'> Quality 
+							<span class='value' data-label-placement='true'>All</span>
+						</label>
+						<ul class='dropdown-menu lg c4'>
+							<li>
+								<input class='genre' id='Webrip' type='checkbox' value='Webrip'/>
+								<label for='Webrip'>Webrip</label>
+							</li>
+							<li>
+								<input class='genre' id='BD' type='checkbox' value='BD'/>
+								<label for='BD'>BD</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<b:include name='searchForm'/>
+				<button class='submit' type='submit'>
+					<svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 512 512' width='1em' xmlns='http://www.w3.org/2000/svg'>
+						<path d='M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z' fill='currentColor'/>
+					</svg>Filter  
+					<span class='count'/>
+				</button>
+				<!-- Results -->
+				<div id='result'/>
+				<script>/*
+					<![CDATA[*/
 var num = 15;
 var newtab = false;
 $('.submit').click(function(){
@@ -2714,24 +3198,22 @@ for(var i=0;i<validator.length;i++){
 }
 window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.join('+') + '?&max-results=' + num, newtab == true ? '_blank' : '_self');
 });
-/*]]>*/</script>
-                
-              </div>
-            </section>
-</b:includable>
+/*]]>*/
+				</script>
+			</div>
+		</section>
+	</b:includable>
           <b:includable id='searchForm'>
-  <form expr:action='data:blog.searchUrl'>
-    <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
-    <b:include name='urlParamsAsFormInput'/>
-    <div class='searchf filter'>
-      <input autocomplete='off' expr:aria-label='data:messages.searchThisBlog' expr:placeholder='data:messages.searchThisBlog' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'/>
-    </div>
-    <b:include name='searchSubmit'/>
-  </form>
-</b:includable>
-          <b:includable id='searchSubmit'>
-  
-</b:includable>
+		<form expr:action='data:blog.searchUrl'>
+			<b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+			<b:include name='urlParamsAsFormInput'/>
+			<div class='searchf filter'>
+				<input autocomplete='off' expr:aria-label='data:messages.searchThisBlog' expr:placeholder='data:messages.searchThisBlog' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'/>
+			</div>
+			<b:include name='searchSubmit'/>
+		</form>
+	</b:includable>
+          <b:includable id='searchSubmit'/>
         </b:widget>
         <b:widget id='PopularPosts2' locked='true' title='Trending' type='PopularPosts' version='2' visible='true'>
           <b:widget-settings>
@@ -3039,6 +3521,160 @@ window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.j
               </b:loop>
             </ul>
           </b:includable>
+        </b:widget>
+        <b:widget id='Label2' locked='false' title='Labels' type='Label' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+            <b:widget-setting name='display'>LIST</b:widget-setting>
+            <b:widget-setting name='selectedLabelsList'>Action,Adventure,Animation,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Mystery,Romance,Sci-Fi,Superhero,Survival,Thriller,War</b:widget-setting>
+            <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
+            <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main' var='this'>
+        <h3 class='title'><svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' style='vertical-align: -0.125em;' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M16.813 4.419A.997.997 0 0 0 16 4H3a1 1 0 0 0-.813 1.581L6.771 12l-4.585 6.419A1 1 0 0 0 3 20h13a.997.997 0 0 0 .813-.419l5-7a.997.997 0 0 0 0-1.162l-5-7z' fill='currentColor'/></svg><data:title/></h3>
+        <style>
+          <b:eval expr='&quot;#&quot; + data:widget.instanceId + &quot;-w&quot;'/> ~ :is(ul,div) {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height .2s;
+          }
+          <b:eval expr='&quot;#&quot; + data:widget.instanceId + &quot;-w:checked&quot;'/> ~ :is(ul,div) {
+          max-height: 500vh;
+          transition: max-height .2s;
+          }
+        </style>
+        <b:include name='content'/>
+      </b:includable>
+          <b:includable id='cloud'>
+        <b:loop values='data:labels limit 20' var='label'>
+          <span class='label-size'>
+            <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
+            <a class='label-name' expr:data='data:label.name' expr:href='data:label.url'>
+              <data:label.name/>
+              <b:if cond='data:this.showFreqNumbers'>
+                <span class='label-count'><data:label.count/></span>
+              </b:if>
+            </a>
+          </span>
+        </b:loop>
+        <input class='dn hidden' expr:id='data:widget.instanceId + &quot;-w&quot;' type='checkbox'/>
+        <div class='cloud-label-widget-content'>
+          <b:loop values='data:labels skip 20' var='label'>
+            <span class='label-size'>
+              <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
+              <a class='label-name' expr:data='data:label.name' expr:href='data:label.url'>
+                <data:label.name/>
+                <b:if cond='data:this.showFreqNumbers'>
+                  <span class='label-count'><data:label.count/></span>
+                </b:if>
+              </a>
+            </span>
+          </b:loop>
+        </div>
+        <label class='cp' expr:for='data:widget.instanceId + &quot;-w&quot;'>
+          <b:with value='data:labels.length' var='item'>
+            Show more (+<b:eval expr='data:item - 10'/>)
+          </b:with>
+        </label>
+      </b:includable>
+          <b:includable id='content'>
+  <div class='widget-content'>
+    <b:class expr:name='data:this.display + &quot;-label-widget-content&quot;'/>
+    <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
+    <b:include cond='data:this.display == &quot;cloud&quot;' name='cloud'/>
+  </div>
+</b:includable>
+          <b:includable id='list'>
+  <ul>
+    <b:loop values='data:labels' var='label'>
+      <li>
+        <a class='label-name' expr:data='data:label.name' expr:href='data:label.url'>
+          <data:label.name/>
+          <b:if cond='data:this.showFreqNumbers'>
+            <span class='label-count'><data:label.count/></span>
+          </b:if>
+        </a>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+        </b:widget>
+        <b:widget id='Label3' locked='false' title='Year' type='Label' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+            <b:widget-setting name='display'>LIST</b:widget-setting>
+            <b:widget-setting name='selectedLabelsList'>2003,2004,2005,2006,2007,2009,2011,2012,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024</b:widget-setting>
+            <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
+            <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main' var='this'>
+        <h3 class='title'><svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' style='vertical-align: -0.125em;' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M16.813 4.419A.997.997 0 0 0 16 4H3a1 1 0 0 0-.813 1.581L6.771 12l-4.585 6.419A1 1 0 0 0 3 20h13a.997.997 0 0 0 .813-.419l5-7a.997.997 0 0 0 0-1.162l-5-7z' fill='currentColor'/></svg><data:title/></h3>
+        <style>
+          <b:eval expr='&quot;#&quot; + data:widget.instanceId + &quot;-w&quot;'/> ~ :is(ul,div) {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height .2s;
+          }
+          <b:eval expr='&quot;#&quot; + data:widget.instanceId + &quot;-w:checked&quot;'/> ~ :is(ul,div) {
+          max-height: 500vh;
+          transition: max-height .2s;
+          }
+        </style>
+        <b:include name='content'/>
+      </b:includable>
+          <b:includable id='cloud'>
+        <b:loop values='data:labels limit 20' var='label'>
+          <span class='label-size'>
+            <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
+            <a class='label-name' expr:data='data:label.name' expr:href='data:label.url'>
+              <data:label.name/>
+              <b:if cond='data:this.showFreqNumbers'>
+                <span class='label-count'><data:label.count/></span>
+              </b:if>
+            </a>
+          </span>
+        </b:loop>
+        <input class='dn hidden' expr:id='data:widget.instanceId + &quot;-w&quot;' type='checkbox'/>
+        <div class='cloud-label-widget-content'>
+          <b:loop values='data:labels skip 20' var='label'>
+            <span class='label-size'>
+              <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
+              <a class='label-name' expr:data='data:label.name' expr:href='data:label.url'>
+                <data:label.name/>
+                <b:if cond='data:this.showFreqNumbers'>
+                  <span class='label-count'><data:label.count/></span>
+                </b:if>
+              </a>
+            </span>
+          </b:loop>
+        </div>
+        <label class='cp' expr:for='data:widget.instanceId + &quot;-w&quot;'>
+          <b:with value='data:labels.length' var='item'>
+            Show more (+<b:eval expr='data:item - 10'/>)
+          </b:with>
+        </label>
+      </b:includable>
+          <b:includable id='content'>
+  <div class='widget-content'>
+    <b:class expr:name='data:this.display + &quot;-label-widget-content&quot;'/>
+    <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
+    <b:include cond='data:this.display == &quot;cloud&quot;' name='cloud'/>
+  </div>
+</b:includable>
+          <b:includable id='list'>
+  <ul>
+    <b:loop values='data:labels' var='label'>
+      <li>
+        <a class='label-name' expr:data='data:label.name' expr:href='data:label.url'>
+          <data:label.name/>
+          <b:if cond='data:this.showFreqNumbers'>
+            <span class='label-count'><data:label.count/></span>
+          </b:if>
+        </a>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
         </b:widget>
       </b:section>
       </b:tag>
@@ -4493,9 +5129,9 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
           <div class='disclaim'> </div>
           </div>
           <div class='socials'>
-            <a href='https://web.facebook.com/emissionsubs/' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 448 512' width='0.88em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48c27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z' fill='#a10a0a'/></svg> </a> 
-            <a href='https://trakteer.id/wernayasa' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M12.75 3.94c1-.72 2.16-1.08 3.47-1.08c.72 0 1.51.19 2.37.59c.86.39 1.54.85 2.04 1.38c1.03 1.28 1.46 2.77 1.31 4.47c-.16 1.7-.72 3.03-1.69 3.97l-7.59 7.59c-.19.19-.43.28-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.25-.22.25-.45 0-.7c-.25-.25-.48-.25-.7 0l-4.59 4.59a.95.95 0 0 1-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.27-.25.27-.5 0-.75c-.23-.25-.45-.25-.7 0l-4.59 4.64a.98.98 0 0 1-.71.28c-.28 0-.52-.09-.73-.28c-.2-.19-.3-.42-.3-.7c0-.28.11-.53.33-.75l4.6-4.6c.25-.25.25-.48 0-.7c-.25-.22-.49-.22-.71 0L6.28 14.5c-.22.2-.45.31-.7.31c-.28 0-.52-.1-.7-.31c-.19-.2-.29-.44-.29-.72c0-.28.1-.51.29-.7C7.94 10 9.83 8.14 10.55 7.45l3.56 3.52c.39.37.84.56 1.39.56c.7 0 1.25-.28 1.66-.84c.28-.41.38-.86.3-1.36c-.08-.5-.29-.92-.63-1.27l-4.08-4.12m2.06 6.33L10.55 6l-7.08 7.08c-.84-.85-1.32-2.15-1.43-3.92c-.11-1.76.37-3.29 1.43-4.57c1.19-1.18 2.61-1.78 4.26-1.78c1.66 0 3.07.6 4.22 1.78l4.27 4.27c.19.19.28.42.28.7c0 .28-.09.52-.28.71c-.19.18-.42.28-.72.28c-.27 0-.5-.1-.69-.28z' fill='#a10a0a'/></svg> </a> 
-            <a href='https://discord.com/invite/KRQQKzQ6CS' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z' fill='#a10a0a'/></svg> </a> 
+            <a href='https://facebook.com/people/Kabitenyo/61567407801883/' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 448 512' width='0.88em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48c27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z' fill='#a10a0a'/></svg> </a> 
+            <a href='/#' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M12.75 3.94c1-.72 2.16-1.08 3.47-1.08c.72 0 1.51.19 2.37.59c.86.39 1.54.85 2.04 1.38c1.03 1.28 1.46 2.77 1.31 4.47c-.16 1.7-.72 3.03-1.69 3.97l-7.59 7.59c-.19.19-.43.28-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.25-.22.25-.45 0-.7c-.25-.25-.48-.25-.7 0l-4.59 4.59a.95.95 0 0 1-.71.28c-.28 0-.51-.09-.7-.28a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.71l4.59-4.59c.27-.25.27-.5 0-.75c-.23-.25-.45-.25-.7 0l-4.59 4.64a.98.98 0 0 1-.71.28c-.28 0-.52-.09-.73-.28c-.2-.19-.3-.42-.3-.7c0-.28.11-.53.33-.75l4.6-4.6c.25-.25.25-.48 0-.7c-.25-.22-.49-.22-.71 0L6.28 14.5c-.22.2-.45.31-.7.31c-.28 0-.52-.1-.7-.31c-.19-.2-.29-.44-.29-.72c0-.28.1-.51.29-.7C7.94 10 9.83 8.14 10.55 7.45l3.56 3.52c.39.37.84.56 1.39.56c.7 0 1.25-.28 1.66-.84c.28-.41.38-.86.3-1.36c-.08-.5-.29-.92-.63-1.27l-4.08-4.12m2.06 6.33L10.55 6l-7.08 7.08c-.84-.85-1.32-2.15-1.43-3.92c-.11-1.76.37-3.29 1.43-4.57c1.19-1.18 2.61-1.78 4.26-1.78c1.66 0 3.07.6 4.22 1.78l4.27 4.27c.19.19.28.42.28.7c0 .28-.09.52-.28.71c-.19.18-.42.28-.72.28c-.27 0-.5-.1-.69-.28z' fill='#a10a0a'/></svg> </a> 
+            <a href='/#' rel='nofollow' target='_blank'> <svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 24 24' width='1em' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z' fill='#a10a0a'/></svg> </a> 
           </div>
           <div class='disclaim'>Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</div>
   </b:includable>
@@ -4559,15 +5195,15 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
       </b:widget>
       <b:widget id='LinkList2' locked='false' title='Help' type='LinkList' version='2' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='link-3'>#</b:widget-setting>
+          <b:widget-setting name='link-3'>/p/disclaimer.html</b:widget-setting>
           <b:widget-setting name='sorting'>NONE</b:widget-setting>
-          <b:widget-setting name='link-4'>#</b:widget-setting>
+          <b:widget-setting name='link-4'>/p/privacy-policy.html</b:widget-setting>
           <b:widget-setting name='text-1'>FAQ</b:widget-setting>
-          <b:widget-setting name='link-1'>#</b:widget-setting>
-          <b:widget-setting name='text-0'>Contact</b:widget-setting>
+          <b:widget-setting name='link-1'>/p/faq.html</b:widget-setting>
+          <b:widget-setting name='text-0'>About Us</b:widget-setting>
           <b:widget-setting name='link-2'>#</b:widget-setting>
           <b:widget-setting name='text-3'>Disclaimer</b:widget-setting>
-          <b:widget-setting name='link-0'>#</b:widget-setting>
+          <b:widget-setting name='link-0'>/p/about-us.html</b:widget-setting>
           <b:widget-setting name='text-2'>Request</b:widget-setting>
           <b:widget-setting name='text-4'>Privacy Policy</b:widget-setting>
         </b:widget-settings>
@@ -4621,12 +5257,12 @@ max-height: 0;overflow: hidden;transition: max-height .2s;}
           <b:widget-setting name='link-19'>/search/label/R</b:widget-setting>
           <b:widget-setting name='sorting'>NONE</b:widget-setting>
           <b:widget-setting name='link-18'>/search/label/Q</b:widget-setting>
-          <b:widget-setting name='link-1'>#</b:widget-setting>
+          <b:widget-setting name='link-1'>/search/label/0-9</b:widget-setting>
           <b:widget-setting name='link-13'>/search/label/L</b:widget-setting>
           <b:widget-setting name='link-2'>/search/label/A</b:widget-setting>
           <b:widget-setting name='link-12'>/search/label/K</b:widget-setting>
           <b:widget-setting name='link-15'>/search/label/N</b:widget-setting>
-          <b:widget-setting name='link-0'>#</b:widget-setting>
+          <b:widget-setting name='link-0'>/search</b:widget-setting>
           <b:widget-setting name='link-14'>/search/label/M</b:widget-setting>
           <b:widget-setting name='link-11'>/search/label/J</b:widget-setting>
           <b:widget-setting name='link-10'>/search/label/I</b:widget-setting>
